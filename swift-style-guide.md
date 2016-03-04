@@ -20,6 +20,17 @@ then open a pull request. :zap:
  * End files with a newline.
  * Don’t leave trailing whitespace. (this would be easier if there was a script to run in Xcode to do this)
    * Not even leading indentation on blank lines.
+ * Put spaces between curly braces.
+ 
+```swift
+// This.
+if (something) {
+}
+
+// Not this.
+func someFunction(){
+}
+```
 
 ### Return and break early
 
