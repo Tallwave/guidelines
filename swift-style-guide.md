@@ -35,9 +35,7 @@ if n.isNumber {
 
 use this:
 ```swift
-guard n.isNumber else {
-    return
-}
+guard n.isNumber else { return }
 // Use n here
 ```
 
