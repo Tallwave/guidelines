@@ -3001,6 +3001,7 @@ Readability is more important than dogma. If there is a decision to be made and 
 
 (The MIT License)
 Original Copyright (c) 2014-2016 Airbnb
+
 Amendments Copyright (c) 2016 Tallwave
 
 Permission is hereby granted, free of charge, to any person obtaining
