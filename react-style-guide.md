@@ -28,7 +28,11 @@
 
 ## Class vs `React.createClass` vs stateless
 
-  - If you have internal state and/or refs, prefer `class extends React.Component` over `React.createClass` unless you have a very good reason to use mixins. eslint: [`react/prefer-es6-class`](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/prefer-es6-class.md) [`react/prefer-stateless-function`](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/prefer-stateless-function.md)
+  - Prefer ES2015 classes in nearly all cases. `React.createClass` is not necessary with ES2015 and makes method binding easier.
+
+   > Why not const functions? For the simplest cases (one-liners), const functions are ok. The general recommendation is to switch over to a class when you start to add internal state to a Component. However, if you're like me you are exceedingly lazy and don't always switch things over when you should and end up with gnarly looking methods that are annoying to refactor. Starting with classes avoids this problem altogether.
+
+   eslint: [`react/prefer-es6-class`](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/prefer-es6-class.md)
 
     ```jsx
     // bad
@@ -39,6 +43,20 @@
       }
     });
 
+    // bad
+    function Listing({ hello, firstCallback, secondCallback }) {
+      return (
+        <div>
+          {hello}
+          When in the course of human events, it becomes self-evident...
+          <div className="buttonBar">
+            <button onClick={firstCallback}/>
+            <button onClick={secondCallback}/>
+          </div>
+        </div>
+        );
+    }
+
     // good
     class Listing extends React.Component {
       // ...
@@ -46,24 +64,8 @@
         return <div>{this.state.hello}</div>;
       }
     }
-    ```
 
-    And if you don't have state or refs, prefer normal functions (not arrow functions) over classes:
-
-    ```jsx
-    // bad
-    class Listing extends React.Component {
-      render() {
-        return <div>{this.props.hello}</div>;
-      }
-    }
-
-    // bad (relying on function name inference is discouraged)
-    const Listing = ({ hello }) => (
-      <div>{hello}</div>
-    );
-
-    // good
+    // ok if your Component is this simple, but then why do you need a component for that?
     function Listing({ hello }) {
       return <div>{hello}</div>;
     }
@@ -622,4 +624,3 @@
   > Why? [`isMounted` is an anti-pattern][anti-pattern], is not available when using ES6 classes, and is on its way to being officially deprecated.
 
   [anti-pattern]: https://facebook.github.io/react/blog/2015/12/16/ismounted-antipattern.html
-
