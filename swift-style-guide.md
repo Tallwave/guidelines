@@ -248,9 +248,7 @@ Note: This only works with the MARK comment.
 
 ### Protocol Conformance
 
-When adding protocol conformance to a model, prefer adding a separate extension for the protocol methods. This way, each extension is organized into logical blocks of functionality, and can simplify instructions to add a protocol to a class with its associated methods.
-
-Each extension should be set off with a `// MARK: -`
+When adding protocol conformance to a model, prefer adding a separate extension for the protocol methods, and including `// MARK: -` above the extension declaration. This way, each extension is organized into logical blocks of functionality, and can simplify instructions to add a protocol to a class with its associated methods.
 
 **Preferred:**
 ```swift
@@ -277,7 +275,7 @@ class MyViewController: UIViewController, UITableViewDataSource, UIScrollViewDel
 ```
 
 
-Since the compiler does not allow you to re-declare protocol conformance in a derived class, it is not always required to replicate the extension groups of the base class. Example: 
+Since the compiler does not allow you to re-declare protocol conformance in a derived class, it is not always required to replicate the extension groups of the base class. **Example**: 
 
 ```swift
 // Derived class `UITableViewController` already conforms to dataSource and delegate protocols.
