@@ -12,6 +12,13 @@ rough priority order):
 If you have suggestions, please see our [contribution guidelines](CONTRIBUTING.md),
 then open a pull request. :zap:
 
+
+## Table of Contents
+
+* [Code Organization](#code-organization)
+  * [Protocol Conformance](#protocol-conformance)
+
+
 ----
 
 #### Whitespace
@@ -222,11 +229,28 @@ In every situation.
 
 ## Code Organization
 
-Use extensions to organize your code into logical blocks of functionality. Each extension should be set off with a `// MARK: -` comment to keep things well-organized.
+Utilizing the following comments to organize your code contributes to a more readable and maintanable code base. (Each comment is followed by its use case.)
+
+`// MARK:` Group methods with similar functionality
+
+`// TODO:` Code needing completion
+
+`// FIXME:` Code needing review or revision
+
+Placing these comments will result in them showing up inside of the `show document items`.
+
+Sometimes you will want to add a separator to further distinguish your code base. You can do so like so:
+
+`// MARK: – ` (LINE)
+`// MARK: ` (NO LINE)
+
+Note: This only works with the MARK comment.
 
 ### Protocol Conformance
 
- In particular, when adding protocol conformance to a model, prefer adding a separate extension for the protocol methods. This keeps the related methods grouped together with the protocol and can simplify instructions to add a protocol to a class with its associated methods.
+When adding protocol conformance to a model, prefer adding a separate extension for the protocol methods. This way, each extension is organized into logical blocks of functionality, and can simplify instructions to add a protocol to a class with its associated methods.
+
+Each extension should be set off with a `// MARK: -`.
 
 **Preferred:**
 ```swift
