@@ -250,7 +250,7 @@ Note: This only works with the MARK comment.
 
 When adding protocol conformance to a model, prefer adding a separate extension for the protocol methods. This way, each extension is organized into logical blocks of functionality, and can simplify instructions to add a protocol to a class with its associated methods.
 
-Each extension should be set off with a `// MARK: -`.
+Each extension should be set off with a `// MARK: -`
 
 **Preferred:**
 ```swift
