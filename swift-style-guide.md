@@ -229,7 +229,7 @@ In every situation.
 
 ## Code Organization
 
-Utilizing the following comments to organize your code contributes to a more readable and maintanable code base. (Each comment is followed by its use case.)
+Utilizing the following comments below to organize your code contributes to a more readable and maintanable code base. (Each comment is followed by its use case.)
 
 `// MARK:` Group methods with similar functionality
 
@@ -242,6 +242,7 @@ Placing these comments will result in them showing up inside of the `show docume
 Sometimes you will want to add a separator to further distinguish your code base. You can do so like so:
 
 `// MARK: – ` (LINE)
+
 `// MARK: ` (NO LINE)
 
 Note: This only works with the MARK comment.
