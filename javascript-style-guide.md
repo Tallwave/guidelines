@@ -2,6 +2,8 @@
 
 *Forked and slightly modified from [Airbnb's](https://github.com/airbnb/javascript)*
 
+Rules can be enforced with the [corresponding .eslintrc](https://raw.githubusercontent.com/Tallwave/guidelines/master/linting/.eslintrc).
+
 ## Table of Contents
 
   1. [Types](#types)
