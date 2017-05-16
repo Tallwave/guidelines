@@ -2,6 +2,14 @@
 
 Coding and contributing guidelines for Tallwave projects.
 
+## Table Of Contents
+1. [Code of Conduct](https://github.com/Tallwave/guidelines/blob/master/CODE_OF_CONDUCT.md)
+2. [Contributing to Tallwave Projects](https://github.com/Tallwave/guidelines/blob/master/CONTRIBUTING.md)
+3. Style Guides
+    * [Javascript](https://github.com/Tallwave/guidelines/blob/master/javascript-style-guide.md)
+    * [React](https://github.com/Tallwave/guidelines/blob/master/react-style-guide.md)
+    * [Swift](https://github.com/Tallwave/guidelines/blob/master/swift-style-guide.md)
+
 ## General information
 
 With all projects, we make heavy use of [Github Flow](https://guides.github.com/introduction/flow/) for the development process.
