@@ -229,7 +229,7 @@ In every situation.
 
 ## Code Organization
 
-Utilizing the following comments below to organize your code contributes to a more readable and maintanable code base. (Each comment is followed by its use case.)
+Follow the guidelines below to make your codebase more readable and maintainable: (Each comment is followed by its use case.)
 
 `// MARK:` Group methods with similar functionality
 
