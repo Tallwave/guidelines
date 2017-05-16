@@ -12,6 +12,13 @@ rough priority order):
 If you have suggestions, please see our [contribution guidelines](CONTRIBUTING.md),
 then open a pull request. :zap:
 
+
+## Table of Contents
+
+* [Code Organization](#code-organization)
+  * [Protocol Conformance](#protocol-conformance)
+
+
 ----
 
 #### Whitespace
@@ -219,3 +226,72 @@ _Rationale:_ Omitting redundant type parameters clarifies the intent, and makes 
 
 #### Curly braces go on the same line
 In every situation.
+
+## Code Organization
+
+Follow the guidelines below to make your codebase more readable and maintainable: (Each comment is followed by its use case.)
+
+`// MARK:` Group methods with similar functionality
+
+`// TODO:` Code needing completion
+
+`// FIXME:` Code needing review or revision
+
+Placing these comments will result in them showing up inside of the `show document items`.
+
+Sometimes you will want to add a separator to further distinguish your code base. You can do so like so:
+
+`// MARK: – ` (LINE)
+
+`// MARK: ` (NO LINE)
+
+Note: This only works with the MARK comment.
+
+### Protocol Conformance
+
+When adding protocol conformance to a model, prefer adding a separate extension for the protocol methods, and including `// MARK: -` above the extension declaration. This way, each extension is organized into logical blocks of functionality, and can simplify instructions to add a protocol to a class with its associated methods.
+
+**Preferred:**
+```swift
+class MyViewController: UIViewController {
+  // class stuff here
+}
+
+// MARK: - UITableViewDataSource
+extension MyViewController: UITableViewDataSource {
+  // table view data source methods
+}
+
+// MARK: - UIScrollViewDelegate
+extension MyViewController: UIScrollViewDelegate {
+  // scroll view delegate methods
+}
+```
+
+**Not Preferred:**
+```swift
+class MyViewController: UIViewController, UITableViewDataSource, UIScrollViewDelegate {
+  // all methods
+}
+```
+
+
+Since the compiler does not allow you to re-declare protocol conformance in a derived class, it is not always required to replicate the extension groups of the base class. **Example**: 
+
+```swift
+// Derived class `UITableViewController` already conforms to dataSource and delegate protocols.
+class MyTableViewController: UITableViewController { 
+
+}
+
+// MARK: - UITableViewDataSource
+extension MyTableViewController: UITableViewDataSource { // Error: Redundant conformance of 'MyTableViewController' to protocol 'UITableViewDataSource'
+
+}
+
+```
+
+When to preserve the extension groups is left to the discretion of the author.
+
+For UIKit view controllers, consider grouping lifecycle, custom accessors, and IBAction in separate class extensions.
+
