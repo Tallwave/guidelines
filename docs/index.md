@@ -8,4 +8,4 @@ Nothing is set in stone and all facets of it should be discussed (when appropria
 
 ## Contents
 
-How our [code](/Code) works.
+How our [code](/guidelines/Code) works.
