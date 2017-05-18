@@ -1,4 +1,8 @@
-[&larr; Home](/)
+---
+title: "Tallwave Guidelines — Code"
+---
+
+[&larr; Home](/guidelines)
 
 # Code
 
