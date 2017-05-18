@@ -6,3 +6,6 @@
 
 Nothing is set in stone and all facets of it should be discussed (when appropriate). We are making this public to demonstrate our philosophy.
 
+## Contents
+
+How our [code](/Code) works.
