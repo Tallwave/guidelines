@@ -53,7 +53,7 @@ Let's interrupt real quick and talk naming. The convention here is that the `mas
 
 <ol start="7">
 <li>The developer should assign another developer (or more) to review the PR.</li>
-<li>Reviewers can comment on code, request changes, or approve it.</li>
+<li>Reviewers can comment on code, request changes, or approve the PR.</li>
 <li>Once approved, the PR can be merged into the <code class="highlighter-rouge">master</code> branch.</li>
 <li>Others can then pull from <code class="highlighter-rouge">upstream</code> to get the most up to date code.</li>
 </ol>
@@ -61,3 +61,5 @@ Let's interrupt real quick and talk naming. The convention here is that the `mas
 <img src="/guidelines/assets/images/code/code-pull.png" alt="pull down changes" />
 
 You'll be doing `git pull upstream master` a lot in order to stay up to date. Frequent smaller commits also helps avoid conflicts.
+
+There's a little more that goes on under the hood.

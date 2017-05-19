@@ -9,3 +9,11 @@ Nothing is set in stone and all facets of it should be discussed (when appropria
 ## Contents
 
 How our [code](/guidelines/Code) works.
+
+How we [maintain quality](/guidelines/Quality).
+
+The way we [run projects](/guidelines/Projects).
+
+The [three main platforms](/guidelines/Platforms) we build on.
+
+How the [team works and how you advance](/guidelines/Team).
