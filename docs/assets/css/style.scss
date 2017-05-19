@@ -7,15 +7,17 @@ $tw-light-blue: #30BDF8;
 $tw-navy: #2B2E3C;
 $tw-spicy: #F75757;
 $tw-bright: #FFFA73;
+$body-color: $222;
 
 .main-content {
   h1, h2, h3, h4, h5 {
-    color: $tw-light-blue;
+    color: $body-color;
   }
 }
 
 a {
-  color: $tw-spicy;
+  color: $tw-light-blue;
+  text-decoration: none;
 }
 
 h1.project-name {
@@ -26,4 +28,5 @@ h1.project-name {
 
 section.page-header {
   background-image: url('/guidelines/assets/images/header-big.jpg');
+  background-size: 100%;
 }
