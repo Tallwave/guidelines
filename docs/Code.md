@@ -22,10 +22,17 @@ Here's how it works:
 
 1. Fork the main or `upstream` repository. Now you have your own version of the repository. This is your `origin` repo.
 
+<img src="/guidelines/assets/images/code/code-fork.png" alt="fork a repo" />
+
 Let's interrupt real quick and talk naming. The convention here is that the `master` branch on `upstream` is what will be deployed at some point. That means that it needs to be in proper working order. Do not commit directly to `master` and do not push directly to `upstream`. Do your branching on your own fork (`origin`) in order to keep `upstream` clean. 
 
 <ol start="2">
 <li>Clone it to your local machine.</li>
+</ol>
+
+<img src="/guidelines/assets/images/code/code-clone.png" alt="fork a repo" />
+
+<ol start="3">
 <li>Create branches for features and bugfixes. These should be intelligently named. `spline-reticulator` or `issue-23-fix-data-deletion` are good. `fixes` is bad.</li>
 <li>Commit early and often. Commit messages should also be intelligent and describe what changed. It is recommended taking the present tense with commit messages, so that it completes this sentence: "This commit...".</li>
 <li>Push the commits to that branch on `origin` (remember this is your fork)</li>
