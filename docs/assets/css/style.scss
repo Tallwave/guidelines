@@ -8,8 +8,10 @@ $tw-navy: #2B2E3C;
 $tw-spicy: #F75757;
 $tw-bright: #FFFA73;
 
-h1, h2, h3, h4, h5 {
-  color: $tw-light-blue;
+.main-content {
+  h1, h2, h3, h4, h5 {
+    color: $tw-light-blue;
+  }
 }
 
 a {
@@ -19,6 +21,7 @@ a {
 h1.project-name {
   font-family: Merriweather,Georgia,Times,serif;
   text-transform: capitalize;
+  color: #fff;
 }
 
 section.page-header {
