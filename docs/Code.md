@@ -10,13 +10,26 @@ title: "Tallwave Guidelines — Code"
 
 There are many bad and good ways to write code. We aim for the latter.
 
+## Your Editor
+
+Use whatever you want, as long as it can follow our [guidelines and linting rules](https://github.com/tallwave/guidelines), it doesn't matter. You may be gently teased if you use something esoteric though.
+
 ### Git
 
 This should come as no surprise, but git is vital to our workflow. On occasion we'll use other SCMs, but git is used in 99% of the projects. Most of the time this is managed through services such as GitHub, Gitlab, or Bitbucket.
 
-#### Workflow
+We strongly recommend that our clients own and maintain the SCM themselves, this leaves no room for doubt over who owns the code and the project.
 
-We follow a ["fork and pull-request"](https://guides.github.com/introduction/flow/) model of software development. At a high level that means that everyone should fork the main repository to their own version. This allows each developer to have their own sandbox to play in without worrying of screwing things up for anyone else. It also means that if you do break everything completely, you can delete it all and fork it again.
+#### GitHub & GitLab
+GitHub has the best combination of features and usability, and is our primary git platform, though there are caveats.
+
+[GitHub changed their business model a little while ago](https://github.com/blog/2164-introducing-unlimited-private-repositories). Organizations used to pay by the repository used, and the new model is to pay by the user, regardless of if that user is a full-fledged member or an "outside collaborator" on a single repo. If you create a lot of repositories in your organization and have only a few members, this plan is attractive, but that's usually the opposite of how our teams are set up. This means the cost of GitHub can quickly cross over $100/month, which is a little silly for a startup. It also introduces friction when deciding to add a Project Manager, Account Manager, or Beta Tester to the repository. $9/month is not a lot of money, but it still requires those conversations to take place, which though small, is still an interruption in work.
+
+All that is to say that because of those constraints we are evaluating using [GitLab](https://gitlab.com/) for client work. GitLab isn't quite as user-friendly, but for many use cases is [free](https://about.gitlab.com/gitlab-com/). In fact, we keep archived projects in there already. GitLab does have some features that GitHub does not as well, such as Continuous Integration pipelines that are worth digging into.
+
+### Git Workflow
+
+We follow a ["fork and pull-request"](https://guides.github.com/introduction/flow/) model of software development. At a high level that means that everyone should fork the main repository and have their own version. This allows each developer to have a sandbox to play in without worrying of screwing things up for anyone else. It also means that if you do break everything completely, you can delete it all and fork it again.
 
 Here's how it works:
 
@@ -62,4 +75,10 @@ Let's interrupt real quick and talk naming. The convention here is that the `mas
 
 You'll be doing `git pull upstream master` a lot in order to stay up to date. Frequent smaller commits also helps avoid conflicts.
 
-There's a little more that goes on under the hood.
+#### Other Git Philosophies
+
+* If it wasn't obvious, commit messages are important. Someone new to a project or a reviewer should be able to follow along to see how the project grew. **Consider** using an interactive rebase to squash certain commits to improve readability. This process is more of an art than a science, so rebase with care.
+* Git's lifecycle allows us to use tools to help us improve our workflows. Use a library like [Husky](https://github.com/typicode/husky) to run tests before each push. (Husky can also run before each _commit_, but that is probably too interruptive).
+* The git commandline is powerful, but not very user-friendly. Guis can help make advanced features more findable and are encouraged, so long as they don't introduce weird stuff into other developers' workflows.
+
+### Code Review
