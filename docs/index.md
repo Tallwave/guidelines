@@ -8,7 +8,7 @@ Nothing is set in stone and all facets of it should be discussed (when appropria
 
 ## Contents
 
-How our [code](/guidelines/Code) works.
+How we write our [code](/guidelines/Code).
 
 How we [maintain quality](/guidelines/Quality).
 

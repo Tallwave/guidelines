@@ -12,7 +12,7 @@ There are many bad and good ways to write code. We aim for the latter.
 
 ## Your Editor
 
-Use whatever you want, as long as it can follow our [guidelines and linting rules](https://github.com/tallwave/guidelines), it doesn't matter. You may be gently teased if you use something esoteric though.
+Use whatever you want, as long as it can follow our [guidelines and linting rules](https://github.com/tallwave/guidelines), it's fine. You may be gently teased if you use something esoteric though.
 
 ### Git
 
@@ -82,3 +82,18 @@ You'll be doing `git pull upstream master` a lot in order to stay up to date. Fr
 * The git commandline is powerful, but not very user-friendly. Guis can help make advanced features more findable and are encouraged, so long as they don't introduce weird stuff into other developers' workflows.
 
 ### Code Review
+
+Code reviews are necessary for quality. Each Pull Request should be reviewed by someone. A proper code review can take time, and therefore work best when the PR in question isn't too long.
+
+The reviewer should go through the code and ask the following questions:
+
+ * Do I understand what this PR contains?
+ * Is the intent clear?
+ * Ask questions when necessary.
+ * Be expedient, but not too expedient. This particular point can be difficult when work stacks up.
+ * Check edge cases.
+ * Add feedback when you are done.
+
+In text the subtleties of language can be missed, especially in the terse dialogs of review comments. Neither developer should assume ill intent during code reviews. The goal should always be to ship quality code, not grind axes.
+
+ It should be noted that in a codebase where things like PCI or HIPAA compliance are necessary, additional requirements must be met, but that can be discussed elsewhere.
