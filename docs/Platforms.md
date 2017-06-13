@@ -48,20 +48,21 @@ Hapi by itself is not terribly interesting, but its power really comes through w
  * [Mongo](https://www.mongodb.com/) is a great database for document based data.
  * [Redis](https://redis.io/) for caching and/or key/value storage.
 
- ### Marketing Websites
 
- A good marketing website can do so many things for our clients. Care must be given to them.
+### Marketing Websites
 
- ## Mobile
+A good marketing website can do so many things for our clients. Care must be given to them.
 
- ### Native Apps
+## Mobile
 
- ### Cross Platform Apps
+### Native Apps
 
- ### Native or Cross Platform?
+### Cross Platform Apps
 
- ## CMS
+### Native or Cross Platform?
 
- ### WordPress
+## CMS
 
- ### Drupal
+### WordPress
+
+### Drupal
