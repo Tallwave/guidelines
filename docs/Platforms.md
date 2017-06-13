@@ -19,10 +19,12 @@ You may have heard of this thing called the Internet, it's getting rather popula
 With [React](https://facebook.github.io/react/) or [Angular.io](https://angular.io/) we can build robust web applications. React is more commonplace, but we do work with Angular 2+ as well. Common libraries used are:
 
  * [Redux](http://redux.js.org/)
+   * When should you use redux? Redux is a powerful state management tool, but that comes at the cost of introducing additional [indirection](https://medium.com/@dan_abramov/you-might-not-need-redux-be46360cf367) and reducing readability. Make that tradeoff wisely. If an app can function fine with React's built-in state mechanics, use those. If a global state needs to exist, or if you find yourself traversing the state tree through many levels, consider using Redux.
  * [React Router](https://github.com/ReactTraining/react-router)
  * [Saga](https://github.com/redux-saga/redux-saga) or [Thunk](https://github.com/gaearon/redux-thunk)
  * [Bluebird](http://bluebirdjs.com/docs/getting-started.html) for better [Promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise) performance.
  * [NGRX Store](https://github.com/ngrx/store)
+   * Since NGRX Store is similar to Redux, the same caveats of its use apply here too.
  * And many more depending on the need of the particular project.
 
  These applications are generally built by [WebPack](https://webpack.github.io/) and written with ECMAScript 6, 7, or TypeScript.
