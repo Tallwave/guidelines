@@ -44,18 +44,37 @@ Hapi by itself is not terribly interesting, but its power really comes through w
 
  Databases:
 
- * [PostgreSQL]() is preferred for relational data
+ * [PostgreSQL](https://www.postgresql.org/) is preferred for relational data
  * [Mongo](https://www.mongodb.com/) is a great database for document based data.
  * [Redis](https://redis.io/) for caching and/or key/value storage.
 
 
 ### Marketing Websites
 
-A good marketing website can do so many things for our clients. Care must be given to them.
+A good marketing website can do so many things for our clients. It's the first thing their customers see so it:
+
+ * Gives the first impression of brand, UX, and product.
+ * If done properly, moves customers through the sales pipeline.
+ * Serves as a portal to other products we may have built.
+ * Demonstrates out abilities at web design and development.
+ * Provides the customer with analytics and marketing knowledge.
+
+A marketing site by its nature will have fewer moving parts than a full-fledged application. It's purpose is more to present information and drive fewer well-defined actions than require a high degree of input from the user. Thus, these websites do not involve heavy duty frameworks like React or Angular. We do tend to favor building these on WordPress, or plain HTML and CSS files. These are typically built using different libraries:
+
+ * Bootstrap
+ * Foundation
+ * jQuery
+ *
 
 ## Mobile
 
+We build mobile apps using native technologies, meaning that they interface directly with the libraries provided by the operating system, that being iOS and Android.
+
+We do not recommend mobile apps built in a web browser. The level of fit and finish is not the same as you get from native. We do however use cross-platform frameworks where appropriate.
+
 ### Native Apps
+
+
 
 ### Cross Platform Apps
 

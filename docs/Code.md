@@ -83,7 +83,7 @@ You'll be doing `git pull upstream master` a lot in order to stay up to date. Fr
 
 ### Code Review
 
-Code reviews are necessary for quality. Each Pull Request should be reviewed by someone. A proper code review can take time, and therefore work best when the PR in question isn't too long.
+Code reviews are necessary for [quality](/guidelines/Quality). Each Pull Request should be reviewed by someone. A proper code review can take time, and therefore work best when the PR in question isn't too long.
 
 The reviewer should go through the code and ask the following questions:
 
@@ -94,6 +94,29 @@ The reviewer should go through the code and ask the following questions:
  * Check edge cases.
  * Add feedback when you are done.
 
-In text the subtleties of language can be missed, especially in the terse dialogs of review comments. Neither developer should assume ill intent during code reviews. The goal should always be to ship quality code, not grind axes.
+In text the subtleties of spoken language can be misinterpreted, especially if the messages are terse. Let's be careful about what we say when talking about code because it is easy to fall into a trap and take critical feedback personally.
 
- It should be noted that in a codebase where things like PCI or HIPAA compliance are necessary, additional requirements must be met, but that can be discussed elsewhere.
+As a reviewer:
+
+ * Address issues without using possessive language. "This code needs work" rather than "Your code needs work".
+ * Point to previously agreed guidelines. "We agreed to avoid X"
+ * If a requested change will take a long time to implement consider moving it to a separate refactor ticket.
+ * Be direct and to the point. Reviews are valuable, but so is time to respond and correct.
+ * Assume good intent.
+
+As a reviewee:
+
+ * Do not take criticism personally. You are not your code :)
+ * Assume good intent.
+ * Be open to improvement/suggestion.
+ * Defend your position with proof if you feel it necessary.
+
+Everyone:
+
+ * We like emoji. And GIFs.
+ * Tread lightly with sarcasm and humor. It is very easy to misinterpret those.
+ * Be timely.
+
+Above all, remember that the goal should always be to ship quality code.
+
+It should be noted that in a codebase where things like PCI or HIPAA compliance are necessary, additional requirements must be met, but that can be discussed elsewhere.
