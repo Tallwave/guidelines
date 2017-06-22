@@ -3,7 +3,7 @@ layout: default
 title: "Tallwave Guidelines — Platforms"
 ---
 
-[&larr; Home](/guidelines)
+[&larr; Home](/)
 
 # Platforms
 
