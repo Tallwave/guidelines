@@ -1,17 +1,17 @@
 FROM jekyll/builder
 
-WORKDIR /srv/jekyll
-
 COPY ./docs /srv/jekyll
 
-RUN wget http://github.com/pietromenna/jekyll-cayman-theme/archive/master.zip
+COPY ./docs/_config.yml /srv/jekyll/_config.yml
 
-RUN unzip jekyll-cayman-theme-master.zip
+WORKDIR /srv/jekyll
 
-RUN cd jekyll-cayman-theme-master
+RUN gem install bundler
 
 RUN bundle install
 
 EXPOSE 4000
 
-CMD ["jekyll", "serve"]
+# RUN jekyll build
+
+CMD ["bundle", "exec", "jekyll", "serve"]

@@ -1,3 +1,8 @@
+---
+layout: default
+title: "Tallwave Guidelines"
+---
+
 # We build great software for companies big and small
 
 ## Here's how we do it
@@ -8,12 +13,12 @@ Nothing is set in stone and all facets of it should be discussed (when appropria
 
 ## Contents
 
-How we write our [code](/guidelines/Code).
+How we write our [code](/Code).
 
-How we [maintain quality](/guidelines/Quality).
+How we [maintain quality](/Quality).
 
-The way we [run projects](/guidelines/Projects).
+The way we [run projects](/Projects).
 
-The [three main platforms](/guidelines/Platforms) we build on.
+The [three main platforms](/Platforms) we build on.
 
-How the [team works and how you advance](/guidelines/Team).
+How the [team works and how you advance](/Team).

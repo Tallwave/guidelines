@@ -1,8 +1,9 @@
 ---
+layout: default
 title: "Tallwave Guidelines — Code"
 ---
 
-[&larr; Home](/guidelines)
+[&larr; Home](/)
 
 # Code
 

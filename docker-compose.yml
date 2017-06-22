@@ -1,0 +1,8 @@
+version: "3"
+services:
+  site:
+    build: .
+    volumes:
+      - ./docs:/srv/jekyll
+    ports:
+      - "4000:4000"
