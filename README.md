@@ -17,3 +17,23 @@ With all projects, we make heavy use of [Github Flow](https://guides.github.com/
 ### HTML &amp; CSS
 
 At Tallwave, we want to write beautiful code, and make it look like the team is in sync on how to write HTML &amp; CSS. When writing CSS (and any CSS pre-processors), stick to [@mdo's code guide](http://codeguide.co/).
+
+## Development
+
+It is possible to run this using Docker. This avoids having to set up jekyll locally, install themes, set up SASS, etc. Just a single dependency:
+
+* Docker
+
+With Docker running in your system, run the following command to build the image and run the container:
+
+```
+./build.sh
+```
+
+Once the image is build, you don't have to keep building it. To make a running container of the built image, run:
+
+```
+docker-compose up
+```
+
+You should be able to see the site at `http://127.0.0.1:4000`.
