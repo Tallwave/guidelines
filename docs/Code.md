@@ -46,7 +46,7 @@ Let's interrupt real quick and talk naming. The convention here is that the `mas
 <img src="/guidelines/assets/images/code/code-clone.png" alt="clone a repo locally" />
 
 <ol start="3">
-<li>Create branches for features and bugfixes. These should be intelligently named. <code class="highlighter-rouge">spline-reticulator</code> or <code class="highlighter-rouge">issue-23-fix-data-deletion</code> are good. <code class="highlighter-rouge">fixes</code> is bad.</li>
+<li>Create branches for features and bugfixes. These should be intelligently named and end with the issue number, preceeded by a hash (#). <code class="highlighter-rouge">spline-reticulator-#11</code> or <code class="highlighter-rouge">fix-data-deletion-#23</code> are good. <code class="highlighter-rouge">fixes</code> is bad.</li>
 </ol>
 
 <img src="/guidelines/assets/images/code/code-branch.png" alt="create branches locally" />
