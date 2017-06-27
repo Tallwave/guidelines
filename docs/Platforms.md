@@ -69,7 +69,7 @@ A marketing site by its nature will have fewer moving parts than a full-fledged 
  * Gulp
  * npm
  * Bower
- * Jekyll (Generates plain HTML and CSS and useful if no database is required; also used to quickly prototyping in conjunction with Bootstrap or Foundation.)
+ * Jekyll (Generates plain HTML and CSS and is useful if no database is required; also used to quickly prototype in conjunction with Bootstrap or Foundation.)
 
 ## Mobile
 
