@@ -70,6 +70,7 @@ A marketing site by its nature will have fewer moving parts than a full-fledged 
  * npm
  * Bower
  * Jekyll (Generates plain HTML and CSS and is useful if no database is required; also used to quickly prototype in conjunction with Bootstrap or Foundation.)
+ * GitHub used for source control (you choose CLI or your favorite Git client).
 
 ## Mobile
 
@@ -90,3 +91,4 @@ We do not recommend mobile apps built in a web browser. The level of fit and fin
 ### WordPress
 
 ### Drupal
+* Version 7 or 8
