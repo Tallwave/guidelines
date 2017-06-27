@@ -59,7 +59,7 @@ A good marketing website can do so many things for our clients. It's the first t
  * Demonstrates out abilities at web design and development.
  * Provides the customer with analytics and marketing knowledge.
 
-A marketing site by its nature will have fewer moving parts than a full-fledged application. Its purpose is more to present information and drive fewer well-defined actions than require a high degree of input from the user. Thus, these websites do not involve heavy duty frameworks like React or Angular. We do tend to favor building these on WordPress, or plain HTML and CSS files. These are typically built using different libraries, pre-processors, package managers, and toolkits:
+A marketing site by its nature will have fewer moving parts than a full-fledged application. Its purpose is more to present information and drive fewer well-defined actions than require a high degree of input from the user. Thus, these websites do not involve heavy duty frameworks like React or Angular. We do tend to favor building these on WordPress, or plain HTML and CSS files. These are typically built using different libraries, frameworks, pre-processors, package managers, and toolkits:
 
  * Bootstrap (4/latest version)
  * Foundation (6.4.0/latest version)
