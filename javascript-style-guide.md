@@ -2,6 +2,8 @@
 
 *Forked and slightly modified from [Airbnb's](https://github.com/airbnb/javascript)*
 
+Rules can be enforced with the [corresponding .eslintrc](https://raw.githubusercontent.com/swilliams/guidelines/eslint/linting/.eslintrcc).
+
 ## Table of Contents
 
   1. [Types](#types)
