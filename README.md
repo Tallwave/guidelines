@@ -37,3 +37,13 @@ docker-compose up
 ```
 
 You should be able to see the site at `http://127.0.0.1:4000`.
+
+**Troubleshooting**
+
+To stop the docker container, press `CTRL + C`.
+
+NOTE: If this produces an error, you may need to stop the running docker container that was unsuccessfully stopped. To do so, run `docker container ls` to see a list of all running containers. Take note of the first 4 digits of the container to be stopped, and run the command:
+
+`docker stop 2bdb`
+ 
+ This will stop that running container.
