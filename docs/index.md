@@ -13,12 +13,12 @@ Nothing is set in stone and all facets of it should be discussed (when appropria
 
 ## Contents
 
-How we write our [code]({% if site.github.is_project_page %}/guidelines{% endif %}/Code).
+How we write our [code]({{ site.root }}/Code).
 
-How we [maintain quality]({% if site.github.is_project_page %}/guidelines{% endif %}/Quality).
+How we [maintain quality]({{ site.root }}/Quality).
 
-The way we [run projects]({% if site.github.is_project_page %}/guidelines{% endif %}/Projects).
+The way we [run projects]({{ site.root }}/Projects).
 
-The [three main platforms]({% if site.github.is_project_page %}/guidelines{% endif %}/Platforms) we build on.
+The [three main platforms]({{ site.root }}/Platforms) we build on.
 
-How the [team works and how you advance]({% if site.github.is_project_page %}/guidelines{% endif %}/Team).
+How the [team works and how you advance]({{ site.root }}/Team).

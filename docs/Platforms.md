@@ -3,7 +3,7 @@ layout: default
 title: "Tallwave Guidelines — Platforms"
 ---
 
-[&larr; Home]({% if site.github.is_project_page %}/guidelines{% endif %}/)
+[&larr; Home]({{ site.root }}/)
 
 # Platforms
 

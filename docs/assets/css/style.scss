@@ -28,6 +28,6 @@ h1.project-name {
 
 section.page-header {
   background-color: #fff;
-  background-image: url('{% if site.github.is_project_page %}/guidelines{% endif %}/assets/images/header-big.jpg');
+  background-image: url('{{ site.root }}/assets/images/header-big.jpg');
   background-size: 100%;
 }

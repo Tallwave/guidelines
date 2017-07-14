@@ -2,6 +2,7 @@ version: "3"
 services:
   site:
     build: .
+    command: bundle exec jekyll server --config _local.yml
     volumes:
       - ./docs:/srv/jekyll
     ports:
