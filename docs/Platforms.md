@@ -63,8 +63,7 @@ A marketing site by its nature will have fewer moving parts than a full-fledged 
 
  * [Bootstrap 4](https://v4-alpha.getbootstrap.com/) A CSS framework which can can be easily installed via [Node.js](https://nodejs.org/en/) and [npm](https://www.npmjs.com/).
  * [Foundation](http://foundation.zurb.com/sites/docs/) (6.4.0/latest version) Another excellent framework for web sites/non single-page apps because of its [Gulp](http://gulpjs.com/) and npm integration, ease-of-use and features. One benefit over Bootstrap is a gulpfile.js is already generated for you, so a Gulp recipe doesn't have to be made from scratch.
- * [Jekyll](https://jekyllrb.com/): Generates plain HTML and CSS and is useful if no database is required. It's also used to quickly prototype in conjunction with Bootstrap or Foundation frameworks. Tallwave has a a front-end build tool called [Quench](https://github.com/Tallwave/quench) to quickly spin up static web sites using Gulp, Jekyll, Sass and Bootstrap or Foundation. 
- * [GitHub](https://github.com/): Used for source control, and may be used via CLI or your favorite Git client.
+ * [Jekyll](https://jekyllrb.com/): Generates plain HTML and CSS and is useful if no database is required. It's also used to quickly prototype in conjunction with Bootstrap or Foundation frameworks. Tallwave has a a front-end build tool called [Quench](https://github.com/Tallwave/quench) to quickly spin up static web sites using Gulp, Jekyll, Sass and Bootstrap or Foundation.
 
 ## Mobile
 
