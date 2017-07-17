@@ -61,16 +61,9 @@ A good marketing website can do so many things for our clients. It's the first t
 
 A marketing site by its nature will have fewer moving parts than a full-fledged application. Its purpose is more to present information and drive fewer well-defined actions than require a high degree of input from the user. Thus, these websites do not involve heavy duty frameworks like React or Angular. We do tend to favor building these on WordPress, or plain HTML and CSS files. These are typically built using different libraries, frameworks, pre-processors, package managers, and toolkits:
 
- * Bootstrap (4/latest version)
- * Foundation (6.4.0/latest version)
- * jQuery
- * Sass
- * HTML5
- * Gulp
- * npm
- * Bower
- * Jekyll (Generates plain HTML and CSS and is useful if no database is required; also used to quickly prototype in conjunction with Bootstrap or Foundation.)
- * GitHub used for source control (you choose CLI or your favorite Git client).
+ * [Bootstrap 4](https://v4-alpha.getbootstrap.com/) A CSS framework which can can be easily installed via [Node.js](https://nodejs.org/en/) and [npm](https://www.npmjs.com/).
+ * [Foundation](http://foundation.zurb.com/sites/docs/) (6.4.0/latest version) Another excellent framework for web sites/non single-page apps because of its [Gulp](http://gulpjs.com/) and npm integration, ease-of-use and features. One benefit over Bootstrap is a gulpfile.js is already generated for you, so a Gulp recipe doesn't have to be made from scratch.
+ * [Jekyll](https://jekyllrb.com/): Generates plain HTML and CSS and is useful if no database is required. It's also used to quickly prototype in conjunction with Bootstrap or Foundation frameworks. Tallwave has a a front-end build tool called [Quench](https://github.com/Tallwave/quench) to quickly spin up static web sites using Gulp, Jekyll, Sass and Bootstrap or Foundation.
 
 ## Mobile
 
