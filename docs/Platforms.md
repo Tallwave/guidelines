@@ -1,8 +1,9 @@
 ---
+layout: default
 title: "Tallwave Guidelines — Platforms"
 ---
 
-[&larr; Home](/guidelines)
+[&larr; Home]({{ site.root }}/)
 
 # Platforms
 
