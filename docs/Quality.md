@@ -70,11 +70,36 @@ Utilities like [Istanbul](https://github.com/gotwarlost/istanbul) provide the pe
 	* [BEHAT](https://www.drupal.org/project/drupalextension)
 	* [phpunit](https://phpunit.de)
 
-## QA?
-TODO
+## QA
+QA can take different forms. At the most basic level, a QA team can perform manual testing. This involves writing manual scripts, executing them, and then filing bugs when issues are encountered while executing those scripts. Manual testing is time consuming, and is still prone to human error.
+
+A QA team can also write automated tests, even down to the unit level. However, developers tend to be best suited for unit and most integration testing, since those benefit from a deeper understanding of what will be written. A QA Engineer is well suited for writing and maintaining end-to-end tests though, since those focus on whether acceptance criteria has been satisified or not.
+
+QA is most effective when that team is a part of the full development life-cycle. There is some benefit bringing them in at the end of the process to execute manual testing against a product gearing up for a release, but that is less effective than baking QA in throughout the whole engagement. 
+
+### A Good Bug Report
+There are good bug reports, and then there are bad ones. Good ones provide the developer all of the information needed to dive in and fix the bug. Sometimes it is not possible to find all of the nitty gritty details, such as with an intermittently occurring bug, but any detail beyond "the app is broke" goes a long way.
+
+Good details in a bug report include:
+
+* A description of what is happening.
+* What is expected to happen.
+* What is actually happening.
+* Steps to reproduce the issue.
+* How reproducible the issue is.
+* Severity
+  * Showstopper (this breaks major pieces of functionality)
+  * Major (a big problem, but not a critical fix)
+  * Minor (affects a smaller piece functionality)
+  * Trivial (eg. a copy error)
+
+### Bug Triage
+Bugs should be treated similarly as issues and scheduled as a part of Sprint grooming and planning. Showstoppers and certain Major issues will likely require immediate attention. All other severities should be mixed in with stories and scheduled appropriately.
 
 ## Continuous Integration
-TODO
+When multiple developers are working on a codebase, Continuous Integration becomes an important process to keep tests successfully passing. When code is checked into the Source Control Management system, the test suite should run before that code is merged into the master branch. If the results of that suite do not pass with 100%, the code should not be merged in.
+
+This process can happen automatically with [GitLab's CI pipelines](https://docs.gitlab.com/ee/ci/).
 
 ## Continuous Deployment
 TODO
