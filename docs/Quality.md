@@ -112,3 +112,40 @@ This process can happen automatically with [GitLab's CI pipelines](https://docs.
 
 ## Continuous Deployment
 TODO
+
+## Release Process
+A good release process is essential in maintaining quality. It's important to consider:
+- What is going into a release?
+- Has it been tested before releasing?
+- What happens if a previous release needs to be patched?
+- What versions of software components integrate with each other?
+
+### Software Integration
+Software rarely comes in singles. There is usually at least a client side application that pairs with server side code. If done well, the server code should always remain backwards compatible. Meaning, any updates to the server should continue to maintain previous versions of client application that users haven't updated yet.
+
+It's still a good idea to capture and release software in groups. Especially when you have multiple types of client software, such as a dashboard that pairs with a client application, and they both share the same server backend.
+
+The best approach is to add **git tags** with [Semantic Versioning](https://semver.org/) to each of the software components being integrated. The tags will make it easy for developers to roll back to the exact software for that version.
+
+These tags, and the version numbers, should be documented in an Integration Document. Each software component will have its own version, and the group of software that integrates together will have a **Named Version**. The named versions can be creative, like Apple's use of famous landmarks. 
+
+Here's an example of a table to keep track of software integrations:
+
+| Named Release | Dashboard | iOS App | Server |
+|---------------|-----------|---------|--------|
+| Chimpanzee    | 1.0.14    | 1.1.3   | 1.0.0  |
+| Orangutan     | 1.1.6     | 1.2.8   | 1.1.5  |
+
+### Patching Releases
+Development never stops, and software is never perfect. Often, by the time a bug is found on a released software, develpment has already added hundreds of commits on the master branch. This is when the power of **git tags** shine.
+1. Create a patch release branch off the tag of the release that needs to be fixed. Name it something like: `patch-1.1.6` (where `1.1.6` is a new version from the released version of `1.1.5`)
+2. PR the fix onto this patch release branch.
+3. Once merged, create a new PR to implement the same fix on the master branch. Or cherry-pick it directly onto the master branch. This will ensure that the next major release will have this fix already integrated.
+4. Keep the patch release branch around. You can create a new tag, but this tag won't be helpful. Tags are associated with a commit. So when rolling back to a tag, it necessarily won't have the same git chain as the patch release branch, especially when cherry-picking the commit from the patch branch to on top of the master branch.
+5. Create a new entry in the software integration document:
+
+| Named Release | Dashboard | iOS App | Server |
+|---------------|-----------|---------|--------|
+| Chimpanzee    | 1.0.14    | 1.1.3   | 1.0.0  |
+| Orangutan     | 1.1.6     | 1.2.8   | 1.1.5  |
+| Orangutan2    | 1.1.6     | 1.2.8   | 1.1.6  |
