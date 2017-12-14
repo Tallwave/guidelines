@@ -29,11 +29,11 @@ A unit test examines a single function or method (a single "unit"). For example,
 The following are helpful, but can have short expiration dates, and quickly become a hindrance to development. This is a gray area, should be taken on a case-by-case basis, and healthy debate is encouraged.
 1. Will it help catch errors when you refactor?
 2. Will it help you during development (TDD)? Will it get from point A to Z? Will it help highlight any holes in your logic?
-These tests capture the *normal* set of acceptance criteria, versus the corner cases. It's also an area where the most development churn occurs. Maintaining these tests adds double duty to the developer, and whatever these unit tests capture, has already been easily captured by normal use of the application. So the cost can outweigh the benefit by a large margin. It can be argued that these tests should be removed, or disabled, so that it doesn't slow down development.
+These tests capture the *normal* set of acceptance criteria, versus the corner cases. It's also an area where the most development churn occurs. Maintaining these tests adds double duty to the developer, and whatever these unit tests capture, has already been easily captured by normal use of the application. So the cost can outweigh the benefit by a large margin. It can be argued that these tests should be disabled so that it doesn't slow down development.
 
 #### Indicators of useless, or toxic, unit tests
 1. Is the test brittle and prone to show false-negatives?
-2. Is it testing the language. For example, is it testing whether a switch statement is working?
+2. Is it testing the language? For example, is it testing whether a switch statement is working?
 3. Is it testing an already vetted, well used, library or function? Example, testing the sqrt() function in the math.lib
 4. Does the cost of maintaining the unit test far outweigh the benefits of keeping the test around?
 
