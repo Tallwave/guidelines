@@ -94,13 +94,13 @@ Good details in a bug report include:
   * Trivial (eg. a copy error)
 
 ### Agile Manual QA Overflow
-Developing automated unit or UI tests are time consuming. It's almost impossible to maintain automation tests while a feature is being developed on at the same time. And often having enough time to develop unit tests and UI automation tests while developing is a luxury we don't get. So, to continue to maintain high quality, manual QA becomes necessary until the feature settles down.
+Developing automated unit or UI tests are time consuming. It's almost impossible to maintain automation tests while a feature is being developed. And often, having enough time to create tests while developing is a luxury we don't get. So, to continue to maintain high quality, manual QA becomes necessary until the feature settles down.
 
-To minimize human error, but maximize time to release, the best approach is to develop a Manual QA Document, or checklist, that captures items that should be tested before a release. These items should be both the normal vectors, and also the corner case vectors of the application. This document should also be updated regularly as more corner cases appear, bugs are found and squashed, and features are changed.
+To minimize human error, but maximize time to release, the best approach is to develop a Manual QA Document, or checklist, that captures items that should be tested before a release. These items should include both the normal vectors, and also corner case vectors of the application. This document should be updated regularly as more corner cases appear, bugs are found and squashed, and features are changed.
 
-Once there is time, and the churn on a feature has stopped, the items from the manual QA document should be converted to either unit tests, or UI automation tests. This creates an *overflow* type of process, like the coolant overflow tank in a car. As you develop and things are hot, new tests should "overflow" to the manual QA document, and then once development has cooled off, items should be removed from the manual QA document and converted to Unit or UI Automation tests.
+Once there is time, and churn on a feature ends, the items from the manual QA document should be converted to either unit tests, or UI automation tests. This creates an *overflow* process, like the coolant overflow tank in a car. As you develop, and things are hot, new tests should "overflow" to the manual QA document. Then, once development has cooled off, items should be removed from the manual QA document and converted to Unit or UI Automation tests.
 
-This manual QA checklist is only useful if there's a process to go through manual QA before releasing the product.
+The manual QA checklist is only useful if there's a process to go through manual QA before releasing the product.
 
 ### Bug Triage
 Bugs should be treated similarly to issues and scheduled as a part of Sprint grooming and planning. Showstoppers and certain Major issues will likely require immediate attention. All other severities should be mixed in with stories and scheduled appropriately.
@@ -121,11 +121,11 @@ A good release process is essential in maintaining quality. It's important to co
 - What versions of software components integrate with each other?
 
 ### Software Integration
-Software rarely comes in singles. There is usually at least a client side application that pairs with server side code. If done well, the server code should always remain backwards compatible. Meaning, any updates to the server should continue to maintain previous versions of client application that users haven't updated yet.
+Software rarely comes in singles. There is usually a client side application that pairs with server side code. If done well, the server code should always remain backwards compatible. Meaning, any updates to the server should continue to maintain previous versions of client application that users haven't updated yet.
 
 It's still a good idea to capture and release software in groups. Especially when you have multiple types of client software, such as a dashboard that pairs with a client application, and they both share the same server backend.
 
-The best approach is to add **git tags** with [Semantic Versioning](https://semver.org/) to each of the software components being integrated. The tags will make it easy for developers to roll back to the exact software for that version.
+The best approach is to add **git tags** with [Semantic Versioning](https://semver.org/) to each of the software components being integrated. [Git Tags](https://git-scm.com/book/en/v2/Git-Basics-Tagging) will make it easy for developers to roll back to the exact software for that version. If using Github, they have a feature called [Releases](https://help.github.com/articles/creating-releases/) that rely on git tags, but offer more meta data to include helpful information, such as whether it's a `pre-release` or a `publish release`.
 
 These tags, and the version numbers, should be documented in an Integration Document. Each software component will have its own version, and the group of software that integrates together will have a **Named Version**. The named versions can be creative, like Apple's use of famous landmarks. 
 
