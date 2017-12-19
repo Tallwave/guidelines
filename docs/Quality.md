@@ -93,32 +93,25 @@ Good details in a bug report include:
   * Minor (affects a smaller piece functionality)
   * Trivial (eg. a copy error)
 
-### Agile Manual QA Overflow
-Developing automated unit or UI tests are time consuming. It's almost impossible to maintain automation tests while a feature is being developed. And often, having enough time to create tests while developing is a luxury we don't get. So, to continue to maintain high quality, manual QA becomes necessary until the feature settles down.
-
-To minimize human error, but maximize time to release, the best approach is to develop a Manual QA Document, or checklist, that captures items that should be tested before a release. These items should include both the normal vectors, and also corner case vectors of the application. This document should be updated regularly as more corner cases appear, bugs are found and squashed, and features are changed.
-
-Once there is time, and churn on a feature ends, the items from the manual QA document should be converted to either unit tests, or UI automation tests. This creates an *overflow* process, like the coolant overflow tank in a car. As you develop, and things are hot, new tests should "overflow" to the manual QA document. Then, once development has cooled off, items should be removed from the manual QA document and converted to Unit or UI Automation tests.
-
-The manual QA checklist is only useful if there's a process to go through manual QA before releasing the product.
-
 ### Bug Triage
 Bugs should be treated similarly to issues and scheduled as a part of Sprint grooming and planning. Showstoppers and certain Major issues will likely require immediate attention. All other severities should be mixed in with stories and scheduled appropriately.
 
-## Continuous Integration
-When multiple developers are working on a codebase, Continuous Integration becomes an important process to keep tests successfully passing. When code is checked into the Source Control Management system, the test suite should run before that code is merged into the master branch. If the results of that suite do not pass with 100%, the code should not be merged in.
+### Agile Manual QA Overflow
+Developing automated integration or UI tests are time consuming. It's hard to maintain automation tests while a feature is being developed. And often, having enough time to create UI and integration tests while developing is a luxury we don't get. Even though your development process might include TDD, unit tests won't catch the bugs that occur due to integration. So, to continue to maintain high quality, manual QA becomes necessary until the feature settles down.
 
-This process can happen automatically with [GitLab's CI pipelines](https://docs.gitlab.com/ee/ci/).
+To minimize human error, but maximize time to release, the best approach is to develop a Manual QA Document, or script, that captures items that should be tested before a release. These items should include both the normal vectors, and also corner case vectors of the application. This document should be updated regularly as more corner cases appear, bugs are found and squashed, and features are changed.
 
-## Continuous Deployment
-TODO
+Once there is time, and churn on a feature ends, the items from the manual QA document should be converted to either integration or UI automation tests. This creates an *overflow* process, like the coolant overflow tank in a car. As you develop, and things are hot, new tests should "overflow" to the manual QA document. Then, once development has cooled off, items should be removed from the manual QA document and converted to Unit or UI Automation tests.
 
-## Release Process
+The manual QA script is only useful if there's a process to go through manual QA before releasing the product.
+
+## Release
 A good release process is essential in maintaining quality. It's important to consider:
 - What is going into a release?
 - Has it been tested before releasing?
 - What happens if a previous release needs to be patched?
 - What versions of software components integrate with each other?
+- How to back out if things go sideways?
 
 ### Software Integration
 Software rarely comes in singles. There is usually a client side application that pairs with server side code. If done well, the server code should always remain backwards compatible. Meaning, any updates to the server should continue to maintain previous versions of client application that users haven't updated yet.
@@ -136,6 +129,13 @@ Here's an example of a table to keep track of software integrations:
 | Chimpanzee    | 1.0.14    | 1.1.3   | 1.0.0  |
 | Orangutan     | 1.1.6     | 1.2.8   | 1.1.5  |
 
+#### Living Documents
+Documents such as a Manual QA script, or the table to keep track of software integration versions should live in locations that are:
+- Easily accessible for developers as well as product managers
+- Easily editable. 
+
+A google doc, or the company wiki works well. Something like github Readme might work, but there is overhead in editing the document, and usually repos aren't public enough to easily share among all the parties that might want it.
+
 ### Patching Releases
 Development never stops, and software is never perfect. Often, by the time a bug is found on a released software, develpment has already added hundreds of commits on the master branch. This is when the power of **git tags** shine.
 1. Create a patch release branch off the tag of the release that needs to be fixed. Name it something like: `patch-1.1.6` (where `1.1.6` is a new version from the released version of `1.1.5`)
@@ -149,3 +149,11 @@ Development never stops, and software is never perfect. Often, by the time a bug
 | Chimpanzee    | 1.0.14    | 1.1.3   | 1.0.0  |
 | Orangutan     | 1.1.6     | 1.2.8   | 1.1.5  |
 | Orangutan2    | 1.1.6     | 1.2.8   | 1.1.6  |
+
+### Continuous Integration
+When multiple developers are working on a codebase, Continuous Integration becomes an important process to keep tests successfully passing. When code is checked into the Source Control Management system, the test suite should run before that code is merged into the master branch. If the results of that suite do not pass with 100%, the code should not be merged in.
+
+This process can happen automatically with [GitLab's CI pipelines](https://docs.gitlab.com/ee/ci/).
+
+### Continuous Deployment
+TODO
