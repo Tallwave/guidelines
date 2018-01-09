@@ -73,9 +73,9 @@ Utilities like [Istanbul](https://github.com/gotwarlost/istanbul) provide the pe
 ## QA
 QA can take different forms. At the most basic level, a QA team can perform manual testing. This involves writing manual scripts, executing them, and then filing bugs when issues are encountered while executing those scripts. Manual testing is time consuming, and is still prone to human error.
 
-A QA team can also write automated tests, even down to the unit level. However, developers tend to be best suited for unit and most integration testing, since those benefit from a deeper understanding of what will be written. A QA Engineer is well suited for writing and maintaining end-to-end tests though, since those focus on whether acceptance criteria has been satisified or not.
+A QA team can also write automated tests, even down to the unit level. However, developers tend to be best suited for unit and most integration testing, since those benefit from a deeper understanding of what will be written. A QA Engineer is well suited for writing and maintaining end-to-end tests though, since those focus on whether acceptance criteria have been satisified or not.
 
-QA is most effective when that team is a part of the full development life-cycle. There is some benefit bringing them in at the end of the process to execute manual testing against a product gearing up for a release, but that is less effective than baking QA in throughout the whole engagement. 
+QA is most effective when that team is a part of the full development life-cycle. There is some benefit bringing them in at the end of the process to execute manual testing against a product gearing up for a release, but that is less effective than baking QA in throughout the whole engagement.
 
 ### A Good Bug Report
 There are good bug reports, and then there are bad ones. Good ones provide the developer all of the information needed to dive in and fix the bug. Sometimes it is not possible to find all of the nitty gritty details, such as with an intermittently occurring bug, but any detail beyond "the app is broke" goes a long way.
@@ -94,12 +94,66 @@ Good details in a bug report include:
   * Trivial (eg. a copy error)
 
 ### Bug Triage
-Bugs should be treated similarly as issues and scheduled as a part of Sprint grooming and planning. Showstoppers and certain Major issues will likely require immediate attention. All other severities should be mixed in with stories and scheduled appropriately.
+Bugs should be treated similarly to issues and scheduled as a part of Sprint grooming and planning. Showstoppers and certain Major issues will likely require immediate attention. All other severities should be mixed in with stories and scheduled appropriately.
 
-## Continuous Integration
+### Agile Manual QA Overflow
+Developing automated integration or UI tests are time consuming. It's hard to maintain automation tests while a feature is being developed. And often, having enough time to create UI and integration tests while developing is a luxury we don't get. Even though your development process might include TDD, unit tests won't catch the bugs that occur due to integration. So, to continue to maintain high quality, manual QA becomes necessary until the feature settles down.
+
+To minimize human error, but maximize time to release, the best approach is to develop a Manual QA Document, or script, that captures items that should be tested before a release. These items should include both the normal vectors, and also corner case vectors of the application. This document should be updated regularly as more corner cases appear, bugs are found and squashed, and features are changed.
+
+Once there is time, and churn on a feature ends, the items from the manual QA document should be converted to either integration or UI automation tests. This creates an *overflow* process, like the coolant overflow tank in a car. As you develop, and things are hot, new tests should "overflow" to the manual QA document. Then, once development has cooled off, items should be removed from the manual QA document and converted to Unit or UI Automation tests.
+
+The manual QA script is only useful if there's a process to go through manual QA before releasing the product.
+
+## Release
+A good release process is essential in maintaining quality. It's important to consider:
+- What is going into a release?
+- Has it been tested before releasing?
+- What happens if a previous release needs to be patched?
+- What versions of software components integrate with each other?
+- How to back out if things go sideways?
+
+### Software Integration
+Software rarely comes in singles. There is usually a client side application that pairs with server side code. If done well, the server code should always remain backwards compatible. Meaning, any updates to the server should continue to maintain previous versions of client application that users haven't updated yet.
+
+It's still a good idea to capture and release software in groups. Especially when you have multiple types of client software, such as a dashboard that pairs with a client application, and they both share the same server backend.
+
+The best approach is to add **git tags** with [Semantic Versioning](https://semver.org/) to each of the software components being integrated. [Git Tags](https://git-scm.com/book/en/v2/Git-Basics-Tagging) will make it easy for developers to roll back to the exact software for that version. If using Github, they have a feature called [Releases](https://help.github.com/articles/creating-releases/) that rely on git tags, but offer more meta data to include helpful information, such as whether it's a `pre-release` or a `publish release`.
+
+These tags, and the version numbers, should be documented in an Integration Document. Each software component will have its own version, and the group of software that integrates together will have a **Named Version**. The named versions can be creative, like Apple's use of famous landmarks. 
+
+Here's an example of a table to keep track of software integrations:
+
+| Named Release | Dashboard | iOS App | Server |
+|---------------|-----------|---------|--------|
+| Chimpanzee    | 1.0.14    | 1.1.3   | 1.0.0  |
+| Orangutan     | 1.1.6     | 1.2.8   | 1.1.5  |
+
+#### Living Documents
+Documents such as a Manual QA script, or the table to keep track of software integration versions should live in locations that are:
+- Easily accessible for developers as well as product managers
+- Easily editable. 
+
+A google doc, or the company wiki works well. Something like github Readme might work, but there is overhead in editing the document, and usually repos aren't public enough to easily share among all the parties that might want it.
+
+### Patching Releases
+Development never stops, and software is never perfect. Often, by the time a bug is found on a released software, develpment has already added hundreds of commits on the master branch. This is when the power of **git tags** shine.
+1. Create a patch release branch off the tag of the release that needs to be fixed. Name it something like: `patch-1.1.6` (where `1.1.6` is a new version from the released version of `1.1.5`)
+2. PR the fix onto this patch release branch.
+3. Once merged, create a new PR to implement the same fix on the master branch. Or cherry-pick it directly onto the master branch. This will ensure that the next major release will have this fix already integrated.
+4. Keep the patch release branch around. You can create a new tag, but this tag won't be helpful. Tags are associated with a commit. So when rolling back to a tag, it necessarily won't have the same git chain as the patch release branch, especially when cherry-picking the commit from the patch branch to on top of the master branch.
+5. Create a new entry in the software integration document:
+
+| Named Release | Dashboard | iOS App | Server |
+|---------------|-----------|---------|--------|
+| Chimpanzee    | 1.0.14    | 1.1.3   | 1.0.0  |
+| Orangutan     | 1.1.6     | 1.2.8   | 1.1.5  |
+| Orangutan2    | 1.1.6     | 1.2.8   | 1.1.6  |
+
+### Continuous Integration
 When multiple developers are working on a codebase, Continuous Integration becomes an important process to keep tests successfully passing. When code is checked into the Source Control Management system, the test suite should run before that code is merged into the master branch. If the results of that suite do not pass with 100%, the code should not be merged in.
 
 This process can happen automatically with [GitLab's CI pipelines](https://docs.gitlab.com/ee/ci/).
 
-## Continuous Deployment
+### Continuous Deployment
 TODO
