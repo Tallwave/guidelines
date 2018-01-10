@@ -118,3 +118,4 @@ Sometimes these overhead costs, and headaches, cut into all the time saved in wr
 
 ### Drupal
 * Version 7 or 8
+* Why Drupal and not something like Expression Engine or Sitecore?
