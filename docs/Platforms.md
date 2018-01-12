@@ -114,7 +114,27 @@ Sometimes these overhead costs, and headaches, cut into all the time saved in wr
 
 ## CMS
 
+On today's Internet, content is king. You want to be the top search result on your favorite search engine, do you want to engage with your clients, do you want to expose your brand...Content! Bill Gates said "Content is where I expect much of the real money will be made on the Internet, just as it was in broadcasting."
+
+In that essay Bill Gates goes on to say how its not just about to putting content on the internet. But its about putting relevant and innovative content. Producing great content and then having to spend money on developers to move that content to a browsers is not ideal. Cost too much money and too much time.
+
+We fully embrace the idea of having our clients being able to manage and publish their content with relative ease. We strive to provide the best platform for our clients to be able to not worry about the tediousness of these two things.
+
+Content Management Systems have join the world of web applications as a tool to solve the issue of managing and publishing content. And like any other trending technologies there is a lot of noise, and everyone seems to have a niche on how to solve the issues that arise from managing content. We focus on two platforms (**Drupal** and **WordPress**) mainly because of the size of the community that represents them. Having a large community means that the platforms are constantly being updated and checked for security issues. Platform that are continuously updated mean they are constantly evolving and progressing to become better at solving the problems they are built to solve, ie manage and publish content.
+
 ### WordPress
+
+People often make the mistake of classifying WordPress as just a blogging platform. Although that used to be true in the past, WordPress has evolved through out the years into a versatile content management system (CMS). While you can still use WordPress to create a simple blog, now it also allows you to create fully functional websites and mobile applications.
+
+The best part about WordPress is that it’s easy to use and flexible enough for just about anything. That’s the main reason why WordPress has grown so much in popularity.
+
+One of the best features of WordPress is that it is out of the box free. That means you can download WordPress and with little to no development knowledge create a website for your brand to deliver content.
+
+WordPress platforms allows us to develop custom plugins and themes for our clients to further drive the experience our clients want to provide their clients. Slowly WordPress is evolving to provide a better framework for development teams to create these customs experiences. Because developing custom plugins and themes for WordPress is not as straight forward as it could be, the community became saturated with plugins and themes that are very costly.
+
+Because of the potential complexity and cost that involves providing a custom and unique experience for our clients clients, we focus on using WordPress on simpler experience. When all our clients care is to deliver content, and all they want is for their clients and potential users to be able to read content online, we use WordPress.
+
+However as it stands, many times our clients want to not only provide a platform for their users to read their content, but they want to provide a platform where they can interact with their clients, in comes a more evolve platform **Drupal**.
 
 ### Drupal
 * Version 7 or 8
