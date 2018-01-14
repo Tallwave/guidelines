@@ -7,7 +7,7 @@ title: "Tallwave Guidelines — Team"
 
 # Team
 
-If you're reading this page, you probably want to know more about the actual development team at Tallwave. Maybe you're considering joining us. Maybe you're just curious. Maybe you already work here and just want a refresher. Regardless, here are the nuts and bolts of what it is like to a developer.
+If you're reading this page, you probably want to know more about the actual development team at Tallwave. Maybe you're considering joining us. Maybe you're just curious. Maybe you already work here and just want a refresher. Regardless, here are the nuts and bolts of what it is like to be a developer here.
 
 ## Your Career
 
@@ -18,12 +18,11 @@ One title isn’t “higher” in the org chart than another. We’re a pretty f
 
 There is no pressure to gain ‘rank’ just for the sake of doing so. If you’re happy at Software Developer, that’s great. Keep it up. However, it can be pretty fulfilling to add some more arrows to your quiver.
 
-These are more what you call [guidelines, not actual rules](https://youtu.be/jl0hMfqNQ-g).
-
 All developers, regardless of title need to carry themselves well, have empathy for others, and demonstrate our Core Values.
 
 All developers will be able to perform code reviews and give constructive feedback.
 
+The rest of these are more what you call [guidelines, not actual rules](https://youtu.be/jl0hMfqNQ-g).
 ---
 
 ### Software Developer
@@ -105,8 +104,7 @@ You should also have a plan and some goals to be working towards, even if you ar
 ## 1:1s
 You will be having a [one-on-one](http://randsinrepose.com/archives/the-update-the-vent-and-the-disaster/) meeting regularly with your manager. This should be every week, barring illness or holiday. Half an hour is the norm, but these can definitely stretch out to longer should the need arise. 
 
-In the one-on-one you'll discuss how you're feeling. This is not a status update, though it may relate to the status of a project. How are you feeling? Happy? Stressed?
-Are you freaking out about something in particular?
+In the one-on-one you'll discuss how you're feeling. This is not a status update, though it may relate to the status of a project. How are you feeling? Happy? Stressed? Are you freaking out about something in particular?
 
 We'll also have conversations about various topics and ask specific questions, like ["If you were CEO of this company, what would you change?"](https://jasonevanish.com/2014/05/29/101-questions-to-ask-in-1-on-1s/). This is so that you and your manager can get to get to know each other a little bit better and also to keep things fresh, you never know what might come out of that conversation.
 
