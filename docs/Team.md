@@ -76,7 +76,7 @@ They’ll be coding a lot, and expected to have well factored results. This code
   * Requirements gathering
   * Customer management
   * Sales support
-* Manages clients, coaches them, and get’s them on board with the Goal for the engagement.
+* Manages clients, coaches them, and gets them on board with the Goal for the engagement.
 * Makes their practice better.
 * Demonstrates excellence in:
   * Team dynamics
@@ -92,7 +92,7 @@ Leads mentor more inexperienced developers more often. This could be answering q
 They have more conversations with clients. Per the description, Leads will be presenting project plans to clients, getting their buy-in, and working with the PM team to keep them apprised every step of the way.
 
 ## Beyond Lead
-This hasn’t been figured out yet. One answer beyond “Lead” is “Management” however just because someone is a great developer doesn’t mean they’ll be a good manager (or even a mediocre one), so it is important to have some sort of advancement plan that does not involve transitioning to management.
+This hasn’t been figured out yet. One answer beyond “Lead” is “Management”; however just because someone is a great developer doesn’t mean they’ll be a good manager (or even a mediocre one), so it is important to have some sort of advancement plan that does not involve transitioning to management.
 
 We can say that whatever role this is will be much more highly consultative. The knowledge that this individual has is incredibly useful and will be of great importance to our clients. They'll be able to tackle problems like "design a resilient micro-service architecture on AWS that can handle a few million sessions per month and can scale way beyond that." without breaking a sweat.
 
@@ -106,7 +106,7 @@ You will be having a [one-on-one](http://randsinrepose.com/archives/the-update-t
 
 In the one-on-one you'll discuss how you're feeling. This is not a status update, though it may relate to the status of a project. How are you feeling? Happy? Stressed? Are you freaking out about something in particular?
 
-We'll also have conversations about various topics and ask specific questions, like ["If you were CEO of this company, what would you change?"](https://jasonevanish.com/2014/05/29/101-questions-to-ask-in-1-on-1s/). This is so that you and your manager can get to get to know each other a little bit better and also to keep things fresh, you never know what might come out of that conversation.
+We'll also have conversations about various topics and ask specific questions, like ["If you were CEO of this company, what would you change?"](https://jasonevanish.com/2014/05/29/101-questions-to-ask-in-1-on-1s/). This is so that you and your manager can get to get to know each other a little bit better and also to keep things fresh. You never know what might come out of that conversation.
 
 From time to time you'll review those goals and how progress is going to hit those.
 
