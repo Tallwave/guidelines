@@ -10,7 +10,7 @@ title: "Tallwave Guidelines — Quality"
 # Readme's
 [README's](https://en.wikipedia.org/wiki/README) are the entry point to a project or code base. As such, they should be continuously updated as important information about the project and code base evolves and/or changes. In essence, a README is the instruction manual on how to get the content of a repository to do what it's intended to do.
 
-There are many examples of really good README's and even the [intro to GitHub](https://guides.github.com/activities/hello-world/) can be considered to be a README. There are also many examples of realy bad README's, including those that may be extensive but don't have the outcome originally intended.
+There are many examples of realy good README's and even the [intro to GitHub](https://guides.github.com/activities/hello-world/) can be considered to be a README. There are also many examples of realy bad README's, including those that may be extensive but don't have the outcome originally intended.
 
 ## Content Guidelines
 README's are there to give a description of the project, how to set it up, how to install it and how to get it to run.
