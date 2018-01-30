@@ -15,6 +15,8 @@ Nothing is set in stone and all facets of it should be discussed (when appropria
 
 How we write our [code]({{ site.root }}/Code).
 
+* The [Git workflow]({{ site.root}}/GitWorkflow) we follow.
+
 How we [maintain quality]({{ site.root }}/Quality).
 
 The way we [run projects]({{ site.root }}/Projects).
