@@ -1,9 +1,9 @@
 ---
 layout: default
-title: "Tallwave Guidelines — Code"
+title: "Tallwave Guidelines — Git Workflow"
 ---
 
-[&larr; Home]({% if site.github.is_project_page %}/guidelines{% endif %}/Code)
+[&larr; Code]({% if site.github.is_project_page %}/guidelines{% endif %}/Code)
 
 # Git Workflow
 
