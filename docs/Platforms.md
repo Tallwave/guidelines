@@ -81,7 +81,7 @@ We do not recommend mobile apps built in a web browser. The level of fit and fin
 
 ### iOS Native Apps
 
-The high adoption rate of new Apple technology, whether it's the latest devices or the latest OS, demands that we keep up with the latest tools and practices. We develop iOS applications using *XCode* with the latest version of *Swift*.
+The high adoption rate of new Apple technology, whether it's the latest devices or the latest OS, demands that we keep up with the latest tools and practices. We develop iOS applications using *Xcode* with the latest version of *Swift*.
 
 Instead of a simple [MVC](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller) Architecture, we've found that the [MVVM](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93viewmodel) fits better with iOS views and view controllers. MVVM allows us to create applications that are easy to read, and scales well with an [Agile](https://en.wikipedia.org/wiki/Agile_software_development) method of software development.
 
@@ -100,15 +100,15 @@ The power of React Native is that you write interfaces that are translated to us
 
 When you compile your React Native code base, a project for both iOS and Android is provided. The common code is compiled into libraries that each project consumes. You can inter-mix natively written iOS or Android components, along with components created through React Native.
 
-You'll also need either XCode or Android Studio to build and release the final product.
+You'll also need either Xcode or Android Studio to build and release the final product.
 
 ### Native or React Native?
 
 Ideally, if you have two developers who are each strong in either iOS or Android, they can collaborate on the same codebase, sharing the same components, while maintaining the UX that is best for each platform. Usually the problem of any cross-platform solution is that Android users have to deal with iOS type elements, and vice-versa, providing a *worst of both worlds* outcome for users. React Native allows the developers to code different UX (such as navigation) for their Android or iOS users, while still sharing as much of the common elements as they can.
 
-But, there is an overhead cost associated with using React Native. Where IDEs such as XCode and Android Studio have had years to optimize their toolset to solve all the common issues with building and releasing products, React Native forces developers to have to deal with npm packages, write code in simpler text editors such as Sublime, and all these need to be customized and optimized manually by the developers.
+But, there is an overhead cost associated with using React Native. Where IDEs such as Xcode and Android Studio have had years to optimize their toolset to solve all the common issues with building and releasing products, React Native forces developers to have to deal with npm packages, write code in simpler text editors such as Sublime, and all these need to be customized and optimized manually by the developers.
 
-Also, where an XCode project can be 100 Megabytes, the same React Native project can be half a Gigabyte, taking mreactuch more memory and much longer to compile.
+Also, where an Xcode project can be 100 Megabytes, the same React Native project can be half a Gigabyte, taking mreactuch more memory and much longer to compile.
 
 Sometimes these overhead costs, and headaches, cut into all the time saved in writing shared components in a single code base. But if the developer has a strong background of Node.js and React, then React Native is ideal for them to jumpstart mobile development.
 
@@ -120,13 +120,13 @@ In that essay he goes on to say how it's not just about putting content on the I
 
 Our clients should be able to manage and publish their content with ease. This means that any workflow to manage their content needs to be flexible for their system, and not force them into a foreign paradigm.
 
-Mordern Content Management Systems have solve this problem. And like any other trending technologies there is a lot of noise, and everyone seems to have an opinion on which platform to use and how to implement it. Here at Tallwave, we focus on two platforms (**Drupal** and **WordPress**) mainly because of the size of the community that represents them. A large community means that the platforms are constantly being updated and vetted for security issues. Platforms that are continuously updated mean they are constantly evolving and progressing to become better at solving the problems they are built to solve.
+Modern Content Management Systems have solve this problem. And like any other trending technologies there is a lot of noise, and everyone seems to have an opinion on which platform to use and how to implement it. Here at Tallwave, we focus on two: **Drupal** and **WordPress**, mainly because of the size of the community that represents them. A large community means that the platforms are constantly being updated and vetted for security issues. Platforms that are continuously updated mean they are constantly evolving and progressing to become better at solving the problems they are built to solve.
 
 ### WordPress
 
 People often make the mistake of classifying WordPress as just a blogging platform. Although that is a big part of its origin story, WordPress has evolved through the years into a versatile CMS. While you can still use WordPress to create a simple blog, it allows for fully functional websites and mobile applications to live on top of it.
 
-WordPress's greatest asset is that it’s easy to use and flexible enough for most kinds of content; it can be included into nearly every kind of system and environment. Another key point is that it has a permissive open source license, meaning that there is no cost to purchase it. 
+WordPress's greatest asset is that it’s easy to use and flexible enough for most kinds of content; it can be included into nearly every kind of system and environment. Another key point is that it has a permissive open source license, meaning that there is no cost to purchase the software itself. 
 
 We can implement WordPress websites or develop custom plugins and themes for our clients. Since the market for WordPress themes and plugins is so massive, many are of poor quality and should not be used. Part of our expertise is in selecting the proper set of libraries, or building them, for our clients to use. 
 
@@ -140,5 +140,23 @@ WordPress can be hosted on a client's own infrastructure, however we recommend u
 WordPress works great for for content heavy websites and landing pages. WordPress starts to show its weaknesses when there are needs beyond straightforward content management and heavy integrations. When our clients have a more demanding and complex needs, Drupal becomes our platform of choice.
 
 ### Drupal
-* Version 7 or 8
-* Why Drupal and not something like Expression Engine or Sitecore?
+Drupal is a progressive content platform that was built with customization in mind. At a high level, Drupal is a collection of modules and components that interact with each other. These modules have hooks that allow developers to modify internal pieces without requiring a full overhaul of the module. This allows Drupal to be a business solution and not just a website builder.
+
+This componentized nature also applies to the information architecture of a Drupal site itself. Drupal can adjust to the level of detail that your theme requires. A theme can be written from the ground up, or extended from an off-the-shelf theme.
+
+Performance can be tuned at multiple entrypoints of the page-render lifecycle. There is caching built-in out of the box as well as support for multiple layers of caching throughout the request. This allows for a fine control over exactly what is cached on a page and how.
+
+Scalability also benefits from the componentized architecture. Because of Drupal's modularity you can scale the individual pieces of the installation to suit the needs of a particular project.
+
+One of the biggest differentiators for Drupal is that it has robust content authoring workflows out of the box. And, as expected, those can be customized to suit different needs. For example, an author can create multiple revisions of a single piece content, hand those over to an editor who makes additional updates, which are then approved by a stake holder, and finally, published on the site. Notifications are built-in so that each person along the chain is immediately aware of the state the content is in.
+
+Drupal creates a RESTful API for the content it stores. This means that any other application, library, or technology that can consume a RESTful API can then be used to render or manage the content. One of the most common scenarios for this is having one development team work in parallel with another to develop the front and back ends of a project simultaneously.
+
+Drupal is built on top of the [Symfony](scalability) framework, which was created with security as key priority. Any modules included in the core installation are heavily scrutinized. [Drupal's security](https://www.drupal.org/documentation/is-drupal-secure) is maintained by a team of developers that review and fix [Critical Vulnerability Exceptions](https://www.cvedetails.com/vulnerability-list/vendor_id-1367/product_id-2387/Drupal-Drupal.html) as they come in. They publish detailed reports for each issue and how they were patched.
+
+Many CMSes support all of these features, but as add-ons. The strength of Drupal is that they come with a default installation with sensible defaults that are easily modified.
+
+#### Recommended Service Providers
+
+* [Acquia](https://www.acquia.com). Acquia has additional services beyond hosting, such as [Lift](https://www.acquia.com/products-services/acquia-lift), which allows for intelligent customization of content on a per-user basis.
+* [Pantheon](https://pantheon.io)
