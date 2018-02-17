@@ -3,7 +3,7 @@ layout: default
 title: "Tallwave Guidelines — QA"
 ---
 
-[&larr; Quality]({{ site.root }}/Quality)
+[&larr; Home]({{ site.root }}/) &mdash; [Quality]({{ site.root }}/Quality)
 
 # QA
 QA can take different forms. At the most basic level, a QA team can perform manual testing. This involves writing manual scripts, executing them, and then filing bugs when issues are encountered while executing those scripts. Manual testing is time consuming, and is still prone to human error.
