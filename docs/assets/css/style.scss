@@ -28,6 +28,34 @@ h1.project-name {
 
 section.page-header {
   background-color: #fff;
-  background-image: url('{{ site.root }}/assets/images/header-big.jpg');
+  background-image: url('{{ site.root }}/assets/images/header2-big.jpg');
   background-size: 100%;
+}
+
+.tallwave-logo {
+  position: absolute;
+  background-image: url('{{ site.root }}/assets/images/tallwave-logo-white.png');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 200px;
+  height: 44px;
+  top: 20px;
+  left: 20px;
+}
+
+.project-tagline {
+  opacity: 1.0;
+}
+
+@media only screen and (-Webkit-min-device-pixel-ratio: 1.5),
+only screen and (-moz-min-device-pixel-ratio: 1.5),
+only screen and (-o-min-device-pixel-ratio: 3/2),
+only screen and (min-device-pixel-ratio: 1.5) {
+  section.page-header {
+    background-image: url('{{ site.root }}/assets/images/header2-big@2x.jpg');
+  }
+
+  .tallwave-logo {
+    background-image: url('{{ site.root }}/assets/images/tallwave-logo-white@2x.png');
+  }
 }
