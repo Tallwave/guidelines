@@ -7,4 +7,4 @@ title: "Tallwave Guidelines — Platforms"
 
 # Platforms
 
-We focus on building software for three platforms: the [web]({% if site.github.is_project_page %}/guidelines{% endif %}/platforms/webapps), [mobile]({% if site.github.is_project_page %}/guidelines{% endif %}/platforms/mobile), and [CMSes]({% if site.github.is_project_page %}/guidelines{% endif %}/platforms/cms).
+We focus on building software for three platforms: the [web]({% if site.github.is_project_page %}/guidelines{% endif %}/Platforms/webapps), [mobile]({% if site.github.is_project_page %}/guidelines{% endif %}/Platforms/mobile), and [CMSes]({% if site.github.is_project_page %}/guidelines{% endif %}/Platforms/cms).

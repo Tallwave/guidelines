@@ -3,7 +3,7 @@ layout: default
 title: "Tallwave Guidelines — Platforms — Content Websites"
 ---
 
-[&larr; Home]({{ site.root }}/) &mdash; [Platforms]({{ site.root }}/platforms)
+[&larr; Home]({{ site.root }}/) &mdash; [Platforms]({{ site.root }}/Platforms)
 
 # Content Based Websites
 

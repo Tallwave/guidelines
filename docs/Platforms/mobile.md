@@ -3,7 +3,7 @@ layout: default
 title: "Tallwave Guidelines — Platforms — Mobile"
 ---
 
-[&larr; Home]({{ site.root }}/) &mdash; [Platforms]({{ site.root }}/platforms)
+[&larr; Home]({{ site.root }}/) &mdash; [Platforms]({{ site.root }}/Platforms)
 
 # Mobile
 

@@ -21,9 +21,9 @@ How we [maintain quality]({{ site.root }}/Quality).
 
 The way we [run projects]({{ site.root }}/Projects).
 
-The [three main platforms]({{ site.root }}/platforms) we build on.
-* [Mobile Applications]({{ site.root }}/platforms/mobile)
-* [Web Applications]({{ site.root }}/platforms/webapps)
-* [Content Management Systems]({{ site.root }}/platforms/cms)
+The [three main platforms]({{ site.root }}/Platforms) we build on.
+* [Mobile Applications]({{ site.root }}/Platforms/mobile)
+* [Web Applications]({{ site.root }}/Platforms/webapps)
+* [Content Management Systems]({{ site.root }}/Platforms/cms)
 
 How the [team works and how you advance]({{ site.root }}/Team).
