@@ -31,7 +31,7 @@ A marketing site by its nature will have fewer moving parts than a full-fledged 
 
 Our clients should be able to manage and publish their content with ease. This means that any workflow to manage their content needs to be flexible for their system, and not force them into a foreign paradigm.
 
-Modern Content Management Systems have solve this problem. And like any other trending technologies there is a lot of noise, and everyone seems to have an opinion on which platform to use and how to implement it. Here at Tallwave, we focus on two: **Drupal** and **WordPress**, mainly because of the size of the community that represents them. A large community means that the platforms are constantly being updated and vetted for security issues. Platforms that are continuously updated mean they are constantly evolving and progressing to become better at solving the problems they are built to solve.
+Modern Content Management Systems have solved this problem. And like any other trending technologies there is a lot of noise, and everyone seems to have an opinion on which platform to use and how to implement it. Here at Tallwave, we focus on two: **Drupal** and **WordPress**, mainly because of the size of the community that represents them. A large community means that the platforms are constantly being updated and vetted for security issues. Platforms that are continuously updated mean they are constantly evolving and progressing to become better at solving the problems they are built to solve.
 
 ### WordPress
 
