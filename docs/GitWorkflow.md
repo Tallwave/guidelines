@@ -3,7 +3,7 @@ layout: default
 title: "Tallwave Guidelines — Git Workflow"
 ---
 
-[&larr; Code]({% if site.github.is_project_page %}/guidelines{% endif %}/Code)
+[&larr; Home]({{ site.root }}/) &mdash; [Code]({{ site.root }}/Code)
 
 # Git Workflow
 
