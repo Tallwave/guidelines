@@ -18,10 +18,10 @@ A good marketing website can do so many things for our clients. It's the first t
  * Gives the first impression of brand, UX, and product.
  * If done properly, moves customers through the sales pipeline.
  * Serves as a portal to other products we may have built.
- * Demonstrates out abilities at web design and development.
+ * Demonstrates our abilities at web design and development.
  * Provides the customer with analytics and marketing knowledge.
 
-A marketing site by its nature will have fewer moving parts than a full-fledged application. Its purpose is more to present information and drive fewer well-defined actions than require a high degree of input from the user. Thus, these websites do not involve heavy duty frameworks like React or Angular. We do tend to favor building these on WordPress, or plain HTML and CSS files. These are typically built using different libraries, frameworks, pre-processors, package managers, and toolkits:
+A marketing site by its nature will have fewer moving parts than a full-fledged application. Its purpose is more to present information to guide the user through a specific funnel rather than to allow them to explore every piece of content on the site. Thus, these websites do not involve heavy duty frameworks like React or Angular. We do tend to favor building these on WordPress, or plain HTML and CSS files. These are typically built using different libraries, frameworks, pre-processors, package managers, and toolkits:
 
  * [Bootstrap 4](https://v4-alpha.getbootstrap.com/) A CSS framework which can can be easily installed via [Node.js](https://nodejs.org/en/) and [npm](https://www.npmjs.com/).
  * [Foundation](http://foundation.zurb.com/sites/docs/) (6.4.0/latest version) Another excellent framework for web sites/non single-page apps because of its [Gulp](http://gulpjs.com/) and npm integration, ease-of-use and features. One benefit over Bootstrap is a gulpfile.js is already generated for you, so a Gulp recipe doesn't have to be made from scratch.
@@ -31,7 +31,7 @@ A marketing site by its nature will have fewer moving parts than a full-fledged 
 
 Our clients should be able to manage and publish their content with ease. This means that any workflow to manage their content needs to be flexible for their system, and not force them into a foreign paradigm.
 
-Modern Content Management Systems have solve this problem. And like any other trending technologies there is a lot of noise, and everyone seems to have an opinion on which platform to use and how to implement it. Here at Tallwave, we focus on two: **Drupal** and **WordPress**, mainly because of the size of the community that represents them. A large community means that the platforms are constantly being updated and vetted for security issues. Platforms that are continuously updated mean they are constantly evolving and progressing to become better at solving the problems they are built to solve.
+Modern Content Management Systems have solved this problem. And like any other trending technologies there is a lot of noise, and everyone seems to have an opinion on which platform to use and how to implement it. Here at Tallwave, we focus on two: **Drupal** and **WordPress**, mainly because of the size of the community that represents them. A large community means that the platforms are constantly being updated and vetted for security issues. Platforms that are continuously updated mean they are constantly evolving and progressing to become better at solving the problems they are built to solve.
 
 ### WordPress
 
@@ -71,18 +71,3 @@ Many CMSes support all of these features, but as add-ons. The strength of Drupal
 
 * [Acquia](https://www.acquia.com). Acquia has additional services beyond hosting, such as [Lift](https://www.acquia.com/products-services/acquia-lift), which allows for intelligent customization of content on a per-user basis.
 * [Pantheon](https://pantheon.io)
-
-### Choosing a CMS
-Either WordPress or Drupal can be used to build nearly any website, however each has its own strengths and weaknesses. This chart breaks down which platform is more appropriate for certain requirements:
-
-&nbsp; | WordPress | Drupal
---------- | --------- | ------
-Content-heavy site | ✅ | |
-Marketing site | ✅ | |
-Landing pages | ✅ | |
-Content workflows | | ✅ |
-Granular security roles and requirements | | ✅ |
-Enterprise integrations | | ✅ |
-Small # of templates | ✅ | |
-Medium # of templates | ✅ | ✅ |
-Large # of templates | | ✅ |

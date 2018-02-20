@@ -47,6 +47,6 @@ Ideally, if you have two developers who are each strong in either iOS or Android
 
 But, there is an overhead cost associated with using React Native. Where IDEs such as Xcode and Android Studio have had years to optimize their toolset to solve all the common issues with building and releasing products, React Native forces developers to have to deal with npm packages, write code in simpler text editors such as Sublime, and all these need to be customized and optimized manually by the developers.
 
-Also, where an Xcode project can be 100 Megabytes, the same React Native project can be half a Gigabyte, taking mreactuch more memory and much longer to compile.
+Also, where an Xcode project can be 100 Megabytes, the same React Native project can be half a Gigabyte, taking more memory and more time to compile.
 
 Sometimes these overhead costs, and headaches, cut into all the time saved in writing shared components in a single code base. But if the developer has a strong background of Node.js and React, then React Native is ideal for them to jumpstart mobile development.
