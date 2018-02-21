@@ -113,7 +113,7 @@ From time to time you'll review those goals and how progress is going to hit tho
 General business info may be distributed via one on ones too. Like when we have a new cover letter for the TPS reports.
 
 ## Diversity
-[A diverse set of views makes a company better](https://www.mckinsey.com/business-functions/organization/our-insights/why-diversity-matters). When we hire we consider diversity. That doesn't mean we target a specifc skin tone or gender, but special care is taken to more sure that we are not a homogenous voice. This really isn't a complicated subject, and therefore it's a short paragraph.
+[A diverse set of views makes a company better](https://www.mckinsey.com/business-functions/organization/our-insights/why-diversity-matters). When we hire we consider diversity. That doesn't mean we target a specifc skin tone or gender, but special care is taken to ensure that we are not a homogenous voice. This really isn't a complicated subject, and therefore it's a short paragraph.
 
 ## Internship
 We love interns! We are actively working on an internship program that we will enact in Summer 2018. Stay tuned!
