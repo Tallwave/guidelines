@@ -3,7 +3,7 @@ layout: default
 title: "Tallwave Guidelines — Platforms — Content Websites"
 ---
 
-[&larr; Home]({{ site.root }}/) &mdash; [Platforms]({{ site.root }}/platforms)
+[&larr; Home]({{ site.root }}/) &mdash; [Platforms]({{ site.root }}/Platforms)
 
 # Content Based Websites
 
@@ -71,3 +71,18 @@ Many CMSes support all of these features, but as add-ons. The strength of Drupal
 
 * [Acquia](https://www.acquia.com). Acquia has additional services beyond hosting, such as [Lift](https://www.acquia.com/products-services/acquia-lift), which allows for intelligent customization of content on a per-user basis.
 * [Pantheon](https://pantheon.io)
+
+### Choosing a CMS
+Either WordPress or Drupal can be used to build nearly any website, however each has its own strengths and weaknesses. This chart breaks down which platform is more appropriate for certain requirements:
+
+&nbsp; | WordPress | Drupal
+--------- | --------- | ------
+Content-heavy site | ✅ | |
+Marketing site | ✅ | |
+Landing pages | ✅ | |
+Content workflows | | ✅ |
+Granular security roles and requirements | | ✅ |
+Enterprise integrations | | ✅ |
+Small # of templates | ✅ | |
+Medium # of templates | ✅ | ✅ |
+Large # of templates | | ✅ |
