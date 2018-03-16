@@ -8,7 +8,7 @@ title: "Tallwave Guidelines — Team — Operations"
 # The Day to Day
 
 ## Resources
-As a company, we have a tendency to throw people in the deep end and see if they can swim. Our business is fast-paced so the traits that are necessary to survive that kind of situation are necessary, but we can at least take the alligators out of the deep-end.
+As a company, we have a tendency to throw people in the deep end and see if they can swim. Our business is fast-paced so the traits that allow someone to thrive in that kind of situation are necessary, but we can at least take the alligators out of the deep-end.
 
 ### Where Stuff Goes and Where to Find It Again
 We have different places where documents and notes can go. Rather than just throwing stuff on the floor like my 7 year old, let's organize it.
