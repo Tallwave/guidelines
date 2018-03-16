@@ -9,6 +9,8 @@ title: "Tallwave Guidelines — Team"
 
 If you're reading this page, you probably want to know more about the actual development team at Tallwave. Maybe you're considering joining us. Maybe you're just curious. Maybe you already work here and just want a refresher. Regardless, here are the nuts and bolts of what it is like to be a developer here.
 
+[Read about the day to day stuff over here]({{ site.root }}/Team/Operations).
+
 ## Your Career
 
 Titles are a weird thing. Just the title alone can cause division. _“How come I’m not a Senior Architect III and *Billy* is?”_ kind of things. We want to be thoughtful about how we approach this, and foster growth and a desire to improve as a developer. Additionally, title can be a shorthand to convey to each other and clients what level of experience someone may have.
