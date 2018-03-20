@@ -27,3 +27,4 @@ The [three main platforms]({{ site.root }}/Platforms) we build on.
 * [Content Management Systems]({{ site.root }}/Platforms/cms)
 
 How the [team works and how you advance]({{ site.root }}/Team).
+* [Day to Day Operations]({{ site.root}}/Team/Operations)
