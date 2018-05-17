@@ -46,4 +46,12 @@ NOTE: If this produces an error, you may need to stop the running docker contain
 
 `docker stop 2bdb`
  
- This will stop that running container.
+This will stop that running container.
+
+Or you can instead use:
+
+`docker-compose stop`
+
+and then whenever you want to run the site again:
+
+`docker-compose start`
