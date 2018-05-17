@@ -55,3 +55,14 @@ Or you can instead use:
 and then whenever you want to run the site again:
 
 `docker-compose start`
+
+## Accessing on a mobile device
+To access the site from your mobile device, find the IP Address of your desktop and use that on mobile, i.e. `192.x.x.x:4000`
+
+To find your desktop's IP, you can:
+- run in your (mac/linux) terminal `ifconfig | grep 'inet'` and pick the ip-looking-address that is _not_ `127.0.0.1` (windows should be `ipconfig` for similar results)
+  - mine looks like this; i used the first IP listed: `inet 192.x.x.x netmask 0xffffff00 broadcast 192.x.x.x`
+- visit [this website](https://www.whatismybrowser.com/detect/what-is-my-local-ip-address)
+- follow the directions for your device (windows/mac) found [here](https://www.howtogeek.com/236838/how-to-find-any-devices-ip-address-mac-address-and-other-network-connection-details/)
+
+_*Note*: googling "what is my IP" returns your router's IP Address, which will not work for this case._
