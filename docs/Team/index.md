@@ -29,7 +29,7 @@ Title does not inflate anyone's worth in the company. We’re a relatively flat 
 
 There is no pressure to gain ‘rank’ just for the sake of doing so. If you’re happy as a Software Developer, that’s great. Keep it up. However, it can be pretty fulfilling to add some more arrows to your quiver.
 
-All developers, regardless of title need to carry themselves well, have empathy for others, and demonstrate our Core Values.
+Everyone on the dev team needs to carry themselves well, have empathy for others, and demonstrate our Core Values.
 
 All developers will be able to perform code reviews and give constructive feedback.
 
