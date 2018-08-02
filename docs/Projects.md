@@ -8,6 +8,19 @@ title: "Tallwave Guidelines — Projects"
 # Projects
 How we conduct ourselves in our projects is just as important as the results of those projects. 
 
+## Permissions and Credentials
+GitHub offers some basic functionality around permissions, so we in turn keep it simple. Here are the rules:
+
+* All Tallwave employees should be members in the [Tallwave](https://github.com/tallwave) organization.
+* All Tallwave employees should be added to the [TallwaveTeam](https://github.com/orgs/Tallwave/teams/tallwaveteam) team (insert joke about naming being hard here).
+* All Tallwave developers should be added to the [Developers](https://github.com/orgs/Tallwave/teams/developers) team.
+* Both of those teams should be added to _all_ private repos in the Tallwave organization.
+  * TallwaveTeam should have `write` access.
+  * The Developers team should have `admin` access.
+* Non-employees should be added as "Outside Collaborators" to appropriate repositories as necessary.
+
+It is the responsibility of the lead on a project to maintain and audit who has access. And of course, clients may have their own organizations with their own rules.
+
 ## Readme's
 [README's](https://en.wikipedia.org/wiki/README) are the entry point to a project or code base. As such, they should be continuously updated as important information about the project and code base evolves and/or changes. In essence, a README is the instruction manual on how to get the content of a repository to do what it's intended to do.
 
