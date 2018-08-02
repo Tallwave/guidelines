@@ -8,7 +8,7 @@ title: "Tallwave Guidelines — Projects"
 # Projects
 How we conduct ourselves in our projects is just as important as the results of those projects. 
 
-## Permissions and Credentials
+## Permissions and Access to Repos
 GitHub offers some basic functionality around permissions, so we in turn keep it simple. Here are the rules:
 
 * All Tallwave employees should be members in the [Tallwave](https://github.com/tallwave) organization.
