@@ -27,9 +27,7 @@ Nice-to-haves as we grow:
 
 ## General Communication
 
-### Set your notification preferences
-
-  Our people work in different time zones. If you don't want your phone to buzz at 5am or 11pm, it is up to you to manage for that. Basecamp has settings for only getting notified during office hours that you set. This is found under "Change your notification settings." This is a preferable solution to requiring people to always be calculating time zone differences in their head, and saving questions or ideas in their head for when it's timezone-appropriate for the other person. Saving information in your head takes up space, let's not make our teammates do that!
+In addition to the basic [communication principles]({{ site.root }}/Team/Communication) we all use, here are a few more that should specifically be used with regard to you or a teammate working remotely.
 
 ### Use "Focus Mode" on Basecamp when you need to focus, and alert your team that you're doing so
 
@@ -45,14 +43,10 @@ Nice-to-haves as we grow:
 
 ### Block off your non-working hours at the beginning/end of your day in your calendar
 
-  This helps people not schedule meetings with you when you'd rather be eating dinner, or haven't yet eaten breakfast. This can work, for example, like setting a 6-9pmEST meeting labeled "EOD" on every weekday. When someone schedules a meeting for you in your EOD time block, you are allowed to decline and request a new meeting time.
+  This helps people not schedule meetings with you when you'd rather be eating dinner, or haven't yet eaten breakfast. This can work, for example, like setting a 6-9pmEST meeting labeled "EOD" (end-of-day) on every weekday. When someone schedules a meeting for you in your EOD time block, you are allowed to decline and request a new meeting time.
 
 ## Project communication
 
 ### Say hi 👋🏻 when you start work, and bye 🌊 when you leave
 
-  If everyone were in office, this usually happens naturally, and you also can visibly see if someone is currently at work. When one or more people are remote, it's important to make sure your coworkers know when you're up and at 'em, and also when you are done for the day. This ensures everyone on a team knows when they can expect answers to questions or someone is available to collaborate on a problem.
-
-### Keep shareable, detailed notes on larger pieces of work
-
-  This helps especially across time zones to sync up efforts. These notes can be in Basecamp (pings/campfire/message board), on the Jira ticket or GitHub issue, or in an email. The preferable place is the GitHub/Jira ticket; however, this can vary on different projects depending on client needs or expectations. The main thing to ensure is that all involved parties can access the information.
+  When you are in office, this usually happens naturally, and you also can visibly see if someone is currently at work. When one or more people are remote, it's important to make sure your coworkers know when you're up and at 'em, and also when you are done for the day. This ensures everyone on a team knows when they can expect answers to questions or someone is available to collaborate on a problem.
