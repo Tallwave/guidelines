@@ -19,11 +19,11 @@ Things we currently do are:
 
 Things we want to do are:
 * make Virtual Coffees part of the culture, so an on-site employee can grab a remote coworker, or vice-versa, from any department for a chat every so often
-
-Things we'd like to do:
 * integrate better screensharing and pair-programming tools
 * make the inclusion of video conferencing the default when creating meetings
-* have a shared microphone in larger company meetings that can be passed around, or have a culture where questions that are asked from the room are repeated into the central mic for the benefit of remote attendees
+
+Nice-to-haves as we grow:
+* for all-hands meetings or company standups, have a shared microphone that can be passed around, or have a culture where questions that are asked from the room are repeated into the central mic for the benefit of remote attendees
 
 ## General Communication
 
