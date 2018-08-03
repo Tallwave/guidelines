@@ -29,4 +29,6 @@ The [three main platforms]({{ site.root }}/Platforms) we build on.
 How the [team works and how you advance]({{ site.root }}/Team)
 * [As Individual Contributors]({{ site.root }}/Team/ic)
 * [Or Managers]({{ site.root }}/Team/management)
-* And also your [day to day operations]({{ site.root}}/Team/Operations)
+* Your [day to day operations]({{ site.root}}/Team/Operations)
+* How we [communicate]({{ site.root }}/Team/Communication)
+* And [working remote]({{ site.root }}/Team/Working-Remote)
