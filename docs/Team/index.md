@@ -20,9 +20,21 @@ You can move up in the company either as an individual contributor or as a manag
 
 What is the difference anyway? At a basic level, managers manage people. They are responsible for hiring, retaining, growing, and if necessary, disciplining the people who report to them. Managers need to have very high degrees of empathy because a lot of the job is about people. 
 
-<div id="the-ladder" class="the-ladder"></div>
-
 Read more about what these tracks look like for [Individual Contributors]({{ site.root }}/Team/ic) and [Management]({{ site.root }}/Team/management).
+
+## Parallel Tracks
+The management track runs parallel to the individual contributor track:
+
+Individual Contributor | Management
+--------- | --------- 
+Developer | --
+Senior Developer | Team Lead
+Solutions Architect | Manager
+Senior Solutions Architect | Director
+
+As you can see the main difference is that Individual Contributor titles get longer, and Management titles get shorter.
+
+You *can* switch between those tracks, but consider it similar to changing majors in college - fine to do once, maybe twice, but not necessarily a good signal if it's too often. Management is a bit of a career reset too. A technical background will help, but the muscles required for a successful career in management are different than as an IC. If you are curious about management, take a look at the [Management page]({{ site.root }}/Team/management) and the tracks on the right side of the Snowflake spectrum and ask yourself if those are areas you want to pursue, or already exhibit naturally.
 
 ### What title is not
 Title does not inflate anyone's worth in the company. We’re a relatively flat organization and that benefits us. A Lead Developer is not necessarily anyone’s boss, though they should be demonstrating leadership. In fact, everyone can (and should) be demonstrating leadership, regardless of title.
@@ -48,18 +60,6 @@ Snowflake is not tied to any *official* policies at Tallwave currently, it is mo
 There will be a tension between what people are capable of doing versus what they are already demonstrating. A person should only be moved up a tier if they have consistently shown that they meet the criteria at that tier. And it should be noted the example behaviors and tasks are **examples** and not checklists.
 
 Another sticky area is if a person has done certain things at a job before Tallwave... This will need to be evaluated on a case by case basis. Due to the nature of our work (and client work in general), developers simply may not get a chance to exercise some of the skills they possess, so some latitude is necessary.
-
-## Parallel Tracks
-The management track runs parallel to the individual contributor track:
-
-Individual Contributor | Management
---------- | --------- 
-Developer | --
-Senior Developer | Team Lead
-Solutions Architect | Manager
-Senior Solutions Architect | Director
-
-You *can* switch between those tracks, but consider it similar to changing majors in college - fine to do once, maybe twice, but not necessarily a good signal if it's too often. Management is a bit of a career reset too. A technical background will help, but the muscles required for a successful career in management are different than as an IC. If you are curious about management, take a look at the [Management page]({{ site.root }}/Team/management) and the tracks on the right side of the Snowflake spectrum and ask yourself if those are areas you want to pursue, or already exhibit naturally.
 
 ## 1:1s
 You will be having a [one-on-one](http://randsinrepose.com/archives/the-update-the-vent-and-the-disaster/) meeting regularly with your manager. This should be every week, barring illness or holiday. Half an hour is the norm, but these can definitely stretch out to longer should the need arise. 
