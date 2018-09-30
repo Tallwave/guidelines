@@ -24,7 +24,7 @@ A Software Developer will participate in Sprint planning and provide feedback ab
 
 They’ll take on a task filed in an issue tracker, code it up and submit a PR, and write good documentation around it (if necessary).
 
-They’ll file great bug reports when encountered.
+They'll be responsible for features within a large project, or an entire project of smaller scope. They’ll also file great bug reports when encountered.
 
 ---
 
@@ -48,9 +48,11 @@ They can also run a Storycarding or Feature Diagramming session, and write Techn
 
 They’ll be coding a lot, and expected to have well factored results. This code should have intelligently written tests to go along with it.
 
+A Senior Developer will be responsible for medium to large projects and be able to help distribute work within those projects.
+
 ---
 
-## Lead Software Developer
+## Solutions Architect
 
 **Traits**
 * Can lead a team of developers. This is different from management.
@@ -64,18 +66,18 @@ They’ll be coding a lot, and expected to have well factored results. This code
 * Demonstrates excellence in:
   * Team dynamics
   * Planning and estimating
-  * Keeping projects on the rails
+  * Breaking down complex features and helping more inexperienced developers to understand them
 
 **Day to Day Examples**
 
-A Lead Dev will have a high degree of ownership in their stack. They’ll be able to help write out plans for how work should be done and set goals for a group to work towards.
+A Solutions Architect will have a high degree of ownership in their stack. They’ll be able to help write out plans for how work should be done and set goals for a group to work towards.
 
-Leads mentor more inexperienced developers more often. This could be answering questions, pair programming, or running code reviews. Leads help Software Developers grow to Seniors and Seniors to Leads.
+SA's mentor more inexperienced developers more often. This could be answering questions, pair programming, or running code reviews. They'll help Software Developers grow to Seniors and Seniors to Solutions Architects.
 
-They have more conversations with clients. Per the description, Leads will be presenting project plans to clients, getting their buy-in, and working with the PM team to keep them apprised every step of the way.
+They have more conversations with clients. Per the description, SA's will be presenting project plans to clients, getting their buy-in, and working with the PM team to keep them apprised every step of the way.
 
-## Beyond Lead
-This is still being determined. We are not quite there yet as a company for this to be a need that should be fully fleshed out.
+## Senior Solutions Architect?
+This is still being determined. We are not quite there yet as a company for this to be a need that should be fully fleshed out. 
 
 We can say that whatever role this is will be much more highly consultative. The knowledge that this individual has is incredibly useful and will be of great importance to our clients. They'll be able to tackle problems like "design a resilient micro-service architecture on AWS that can handle a few million sessions per month and can scale way beyond that." without breaking a sweat.
 

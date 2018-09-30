@@ -36,9 +36,30 @@ All developers will be able to perform code reviews and give constructive feedba
 The rest of these are more what you call [guidelines, not actual rules](https://youtu.be/jl0hMfqNQ-g).
 
 ## Advancement
-You've heard it said that you should dress for the job you want, well similarly, if you want to be a Senior or a Lead developer, you should already be demonstrating those traits. In other words if you ask for a promotion, it shouldn't cause your manager to hesitate.
+You've heard it said that you should dress for the job you want, well similarly, if you want to be a Senior Developer or a Manager, you should already be demonstrating the traits respective for those roles. In other words if you ask for a promotion, it shouldn't cause your manager to hesitate.
 
 You should also have a plan and some goals to be working towards, even if you are not looking for a promotion. Goals are tricky. Like estimating software in general, it's quite easy to overestimate how much you can accomplish in a year's time. And in our business, client work has a tendency to take up as much free time as possible, so while special consideration will be given if it's been a particularly busy time, we need to strive to make forward progress.
+
+### Snowflake
+Medium has a great tool for measuring career performance called Snowflake. It measures technical as well as interpersonal skills. We liked it so much we adopted it for the dev at Tallwave. [You can view the tool itself over here](https://tallwave.github.io/snowflake). 
+
+Snowflake is not tied to any *official* policies at Tallwave currently, it is more for feedback and performance planning. There are 16 Tracks, each with 5 tiers. Advancement through tiers gets progressively harder. The difference between a 4 and a 5 is significantly larger than between 1 and 2. The left most tracks are more technical in nature, and the right most are more people & relationship based. Individual Contributors will tilt towards the left and Managers towards the right, though a mix between the two is normal.
+
+There will be a tension between what people are capable of doing versus what they are already demonstrating. A person should only be moved up a tier if they have consistently shown that they meet the criteria at that tier. And it should be noted the example behaviors and tasks are **examples** and not checklists.
+
+Another sticky area is if a person has done certain things at a job before Tallwave... This will need to be evaluated on a case by case basis. Due to the nature of our work (and client work in general), developers simply may not get a chance to exercise some of the skills they possess, so some latitude is necessary.
+
+## Parallel Tracks
+The management track runs parallel to the individual contributor track:
+
+Individual Contributor | Management
+--------- | --------- 
+Developer | --
+Senior Developer | Team Lead
+Solutions Architect | Manager
+Senior Solutions Architect | Director
+
+You *can* switch between those tracks, but consider it similar to changing majors in college - fine to do once, maybe twice, but not necessarily a good signal if it's too often. Management is a bit of a career reset too. A technical background will help, but the muscles required for a successful career in management are different than as an IC. If you are curious about management, take a look at the [Management page]({{ site.root }}/Team/management) and the tracks on the right side of the Snowflake spectrum and ask yourself if those are areas you want to pursue, or already exhibit naturally.
 
 ## 1:1s
 You will be having a [one-on-one](http://randsinrepose.com/archives/the-update-the-vent-and-the-disaster/) meeting regularly with your manager. This should be every week, barring illness or holiday. Half an hour is the norm, but these can definitely stretch out to longer should the need arise. 
