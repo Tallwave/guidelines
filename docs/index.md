@@ -26,5 +26,9 @@ The [three main platforms]({{ site.root }}/Platforms) we build on.
 * [Web Applications]({{ site.root }}/Platforms/webapps)
 * [Content Management Systems]({{ site.root }}/Platforms/cms)
 
-How the [team works and how you advance]({{ site.root }}/Team).
-* [Day to Day Operations]({{ site.root}}/Team/Operations)
+How the [team works and how you advance]({{ site.root }}/Team)
+* [As Individual Contributors]({{ site.root }}/Team/ic)
+* [Or Managers]({{ site.root }}/Team/management)
+* Your [day to day operations]({{ site.root}}/Team/Operations)
+* How we [communicate]({{ site.root }}/Team/Communication)
+* And [working remote]({{ site.root }}/Team/Working-Remote)
