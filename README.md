@@ -20,11 +20,9 @@ At Tallwave, we want to write beautiful code, and make it look like the team is 
 
 ## Development
 
-It is possible to run this using Docker. This avoids having to set up jekyll locally, install themes, set up SASS, etc. Just a single dependency:
+It is possible to run this using Docker. This avoids having to set up jekyll locally, install themes, set up SASS, etc. There is a single dependency of Docker:
 
-* Docker
-
-With Docker running in your system, run the following command to build the image and run the container:
+With Docker running in your system, run the following command in the root folder to build the image and run the container:
 
 ```
 ./build.sh
