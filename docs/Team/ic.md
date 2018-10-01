@@ -24,7 +24,7 @@ A Software Developer will participate in Sprint planning and provide feedback ab
 
 They’ll take on a task filed in an issue tracker, code it up and submit a PR, and write good documentation around it (if necessary).
 
-They'll be responsible for features within a large project, or an entire project of smaller scope. They’ll also file great bug reports when encountered.
+They'll be responsible for implementing features within a large project, or an entire project of smaller scope. They’ll also file great bug reports when encountered.
 
 ---
 
