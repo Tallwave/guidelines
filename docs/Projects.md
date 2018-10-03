@@ -28,7 +28,7 @@ There are many examples of realy good README's and even the [intro to GitHub](ht
 
 ## Content Guidelines
 README's are there to give a description of the project, how to set it up, how to install it and how to get it to run.
-While the specifics of what should and should not be included in the document depend on the project or contents of the repository, the following informatioon should be imparted:
+While the specifics of what should and should not be included in the document depend on the project or contents of the repository, the following information should be imparted:
 
 ## Recommended Structure
 The table of contents for a README should contain at least the following:
